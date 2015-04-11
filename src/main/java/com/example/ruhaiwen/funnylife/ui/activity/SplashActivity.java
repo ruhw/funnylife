@@ -2,6 +2,7 @@ package com.example.ruhaiwen.funnylife.ui.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
 
 import com.example.ruhaiwen.funnylife.Config;
 import com.example.ruhaiwen.funnylife.R;
@@ -24,6 +25,7 @@ public class SplashActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_splash);
         //Bmob SDK初始化--只需要这一段代码即可完成初始化
         //请到Bmob官网(http://www.bmob.cn/)申请ApplicationId,具体地址:http://docs.bmob.cn/android/faststart/index.html?menukey=fast_start&key=start_android

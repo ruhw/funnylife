@@ -25,6 +25,7 @@ public abstract class BaseFragment extends Fragment {
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+        setRetainInstance(true);//设置设备旋转时保留fragment实例
 		TAG = this.getClass().getSimpleName();
 		mContext = getActivity();
 		if(null == sputil){

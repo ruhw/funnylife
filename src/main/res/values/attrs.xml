@@ -18,7 +18,7 @@
     <declare-styleable name="ActionBar">
 		<attr name="title" format="string" localization="suggested" /> 
     </declare-styleable>
-        <declare-styleable name="SmoothProgressBar">
+    <declare-styleable name="SmoothProgressBar">
         <attr name="spbStyle" format="reference"/>
         <attr name="spb_color" format="color"/>
         <attr name="spb_stroke_width" format="dimension"/>
@@ -34,5 +34,19 @@
         <attr name="spb_reversed" format="boolean"/>
         <attr name="spb_mirror_mode" format="boolean"/>
         <attr name="spb_colors" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
     </declare-styleable>
 </resources>

@@ -4,10 +4,10 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF" >
 
-    <com.markupartist.android.widget.ActionBar
+    <com.example.ruhaiwen.funnylife.view.ActionBar
         android:id="@+id/actionbar_register"
         style="@style/ActionBar" >
-    </com.markupartist.android.widget.ActionBar>
+    </com.example.ruhaiwen.funnylife.view.ActionBar>
 
     <TextView
         android:id="@+id/login_menu"
@@ -53,7 +53,7 @@
         android:layout_marginRight="30dp"
         android:background="@color/theme_color" />
 
-    <com.xgr.wonderful.view.DeletableEditText
+    <com.example.ruhaiwen.funnylife.view.DeletableEditText
         android:id="@+id/user_name_input"
         android:layout_width="wrap_content"
         android:layout_height="48dip"
@@ -72,9 +72,9 @@
         android:singleLine="true" >
 
         <requestFocus />
-    </com.xgr.wonderful.view.DeletableEditText>
+    </com.example.ruhaiwen.funnylife.view.DeletableEditText>
 
-    <com.xgr.wonderful.view.DeletableEditText
+    <com.example.ruhaiwen.funnylife.view.DeletableEditText
         android:id="@+id/user_password_input"
         android:layout_width="wrap_content"
         android:layout_height="48dip"
@@ -93,7 +93,7 @@
         android:paddingRight="4dip"
         android:singleLine="true" />
 
-    <com.xgr.wonderful.view.DeletableEditText
+    <com.example.ruhaiwen.funnylife.view.DeletableEditText
         android:id="@+id/user_email_input"
         android:layout_width="wrap_content"
         android:layout_height="48dip"
@@ -125,7 +125,7 @@
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
-    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+    <com.example.ruhaiwen.funnylife.view.SmoothProgressBar
         android:id="@+id/sm_progressbar"
         style="@style/GPlusProgressBar"
         android:layout_width="match_parent"

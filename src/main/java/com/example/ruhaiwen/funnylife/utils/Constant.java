@@ -34,4 +34,6 @@ public interface Constant {
 	
 	public static final String SEX_MALE = "male";
 	public static final String SEX_FEMALE = "female";
+
+    public static final String IMAGE_URL = "imageUrl";
 }

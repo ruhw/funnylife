@@ -23,6 +23,8 @@
         <item>AccelerateDecelerate</item>
         <item>Decelerate</item>
     </string-array>
+
+    <string name="publish">发布</string>
     
    
 </resources>

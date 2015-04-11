@@ -1,5 +1,6 @@
 package com.example.ruhaiwen.funnylife.utils;
 
+
 import android.util.Log;
 
 import com.example.ruhaiwen.funnylife.BuildConfig;

@@ -42,7 +42,7 @@ public abstract class BaseHomeActivity extends BaseActivity{
 			@Override
 			public int getDrawable() {
 				// TODO Auto-generated method stub
-				return R.drawable.logo;
+				return R.drawable.icon_app;
 			}
 		});
 		addActions();

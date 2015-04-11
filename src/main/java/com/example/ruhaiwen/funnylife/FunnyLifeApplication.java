@@ -27,6 +27,7 @@ public class FunnyLifeApplication extends Application {
     public static RequestQueue mRequestQueue;
     //请求和缓存图片的ImageLoader
     public static ImageLoader mImageLoader;
+    public static User user;
     @Override
     public void onCreate() {
         super.onCreate();
@@ -39,13 +40,11 @@ public class FunnyLifeApplication extends Application {
     }
 
     public User getCurrentUser() {
-        User user = BmobUser.getCurrentUser(sFunnyLifeApplication, User.class);
-        if(user!=null){
-            return user;
+        if(user ==null){
+            return BmobUser.getCurrentUser(this, User.class);
         }
-        return null;
+        return user;
     }
-
     public static FunnyLifeApplication getInstance(){
         return sFunnyLifeApplication;
     }

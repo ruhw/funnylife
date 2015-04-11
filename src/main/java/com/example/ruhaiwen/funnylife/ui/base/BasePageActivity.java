@@ -1,10 +1,6 @@
 package com.example.ruhaiwen.funnylife.ui.base;
 
 import android.os.Bundle;
-
-import com.example.ruhaiwen.funnylife.Config;
-
-
 import cn.bmob.v3.Bmob;
 
 /**
