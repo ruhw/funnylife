@@ -2,13 +2,20 @@ package com.example.ruhaiwen.funnylife;
 
 import android.app.Activity;
 import android.app.Application;
+import android.graphics.Bitmap;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.ImageLoader;
-import com.android.volley.toolbox.Volley;
 import com.example.ruhaiwen.funnylife.entity.User;
 import com.example.ruhaiwen.funnylife.utils.ActivityManagerUtils;
-import com.example.ruhaiwen.funnylife.volley.VolleyImageCache;
+import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
+import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
+import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+import com.nostra13.universalimageloader.utils.StorageUtils;
+
+import java.io.File;
 
 import cn.bmob.v3.BmobUser;
 
@@ -19,32 +26,49 @@ public class FunnyLifeApplication extends Application {
 
     public static FunnyLifeApplication sFunnyLifeApplication = null;
 
-    public FunnyLifeApplication(){
-        sFunnyLifeApplication = this;
-    }
-
-    //存放volley请求的队列
-    public static RequestQueue mRequestQueue;
-    //请求和缓存图片的ImageLoader
-    public static ImageLoader mImageLoader;
-    public static User user;
+    public User user;
     @Override
     public void onCreate() {
         super.onCreate();
-        initVolley();
+        sFunnyLifeApplication = this;
+        initImageLoader();
     }
 
-    private void initVolley() {
-        mRequestQueue = Volley.newRequestQueue(getApplicationContext());
-        mImageLoader = new ImageLoader(mRequestQueue, VolleyImageCache.getInstance(getApplicationContext()));
+    /**
+     * 初始化imageLoader
+     */
+    public void initImageLoader(){
+        File cacheDir = StorageUtils.getCacheDirectory(getApplicationContext());
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
+                .memoryCache(new LruMemoryCache(5*1024*1024))
+                .memoryCacheSize(10*1024*1024)
+                .discCache(new UnlimitedDiscCache(cacheDir))
+                .discCacheFileNameGenerator(new HashCodeFileNameGenerator())
+                .build();
+        ImageLoader.getInstance().init(config);
+    }
+
+    public DisplayImageOptions getOptions(int drawableId){
+        return new DisplayImageOptions.Builder()
+                .showImageOnLoading(drawableId)
+                .showImageForEmptyUri(drawableId)
+                .showImageOnFail(drawableId)
+                .resetViewBeforeLoading(true)
+                .cacheInMemory(true)
+                .cacheOnDisc(true)
+                .imageScaleType(ImageScaleType.EXACTLY)
+                .bitmapConfig(Bitmap.Config.RGB_565)
+                .build();
     }
 
     public User getCurrentUser() {
-        if(user ==null){
-            return BmobUser.getCurrentUser(this, User.class);
-        }
-        return user;
+        return BmobUser.getCurrentUser(this, User.class);
     }
+
+    public void setCurrentUser(User user){
+        this.user = user;
+    }
+
     public static FunnyLifeApplication getInstance(){
         return sFunnyLifeApplication;
     }
@@ -60,8 +84,4 @@ public class FunnyLifeApplication extends Application {
     public Activity getTopActivity(){
         return ActivityManagerUtils.getInstance().getTopActivity();
     }
-
-
-
-
 }

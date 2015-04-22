@@ -4,19 +4,32 @@ import cn.bmob.v3.BmobObject;
 
 
 /**
- * @author kingofglory
- *         email: kingofglory@yeah.net
- *         blog:  http:www.google.com
- * @date 2014-4-2
- * TODO
+ * @author kevin
+ * @date 2015-4-10
  */
 
 public class Comment extends BmobObject{
-	
-	public static final String TAG = "Comment";
 
+    /**
+     * 评论的用户
+     */
 	private User commentator;
+    /**
+     * 评论所属的发布条目
+     */
+    private Publication publication;
+    /**
+     * 评论的内容
+     */
 	private String commentContent;
+
+    public Publication getPublication() {
+        return publication;
+    }
+
+    public void setPublication(Publication publication) {
+        this.publication = publication;
+    }
 
     public User getCommentator() {
         return commentator;

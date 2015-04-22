@@ -11,6 +11,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.Gravity;
@@ -190,7 +191,8 @@ public class MainFragment extends BaseContentFragment {
     private void initTakePhotoIntent() {
         Date date = new Date(System.currentTimeMillis());
         dateTime = date.getTime() + "";
-        File f = new File(CacheUtils.getCacheDirectory(mContext, true, "pic") + dateTime);
+        //File f = new File(CacheUtils.getCacheDirectory(mContext, true, "pic/") + dateTime);
+        File f = new File(Environment.getExternalStorageDirectory() + "/funnyLife/" + dateTime);
         if (f.exists()) {
             f.delete();
         }
@@ -210,8 +212,8 @@ public class MainFragment extends BaseContentFragment {
     private void initGetImageIntent() {
 //        Date date1 = new Date(System.currentTimeMillis());
 //        dateTime = date1.getTime() + "";
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-        intent.setDataAndType(MediaStore.Images.Media.INTERNAL_CONTENT_URI, "image/*");
+        Intent intent = new Intent(Intent.ACTION_PICK, null);
+        intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
         startActivityForResult(intent, REQUEST_CODE_ALBUM);
     }
 
@@ -256,7 +258,8 @@ public class MainFragment extends BaseContentFragment {
                     }
                     break;
                 case REQUEST_CODE_CAMERA:
-                    filePath =CacheUtils.getCacheDirectory(mContext, true, "pic") + dateTime;
+                    //filePath =CacheUtils.getCacheDirectory(mContext, true, "pic") + dateTime;
+                    filePath = Environment.getExternalStorageDirectory() + "/funnyLife/" + dateTime;
                     jumpToActivity(filePath);
                     break;
                 default:

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     >
 
-    <com.markupartist.android.widget.ActionBar
+    <com.example.ruhaiwen.funnylife.view.ActionBar
         android:id="@+id/actionbar_comment"
         style="@style/ActionBar" />
 	<ScrollView 

@@ -1,9 +1,7 @@
 package com.example.ruhaiwen.funnylife.ui.fragment;
 
-import android.view.View;
-import android.widget.AdapterView;
+import android.os.Bundle;
 
-import com.example.ruhaiwen.funnylife.adapter.BaseContentAdapter;
 import com.example.ruhaiwen.funnylife.entity.Publication;
 import com.example.ruhaiwen.funnylife.entity.User;
 import com.example.ruhaiwen.funnylife.ui.base.BaseContentFragment;
@@ -23,11 +21,17 @@ import cn.bmob.v3.listener.FindListener;
 /**
  * Created by ruhaiwen on 15-4-3.
  */
-public class MyloveFragment extends BaseContentFragment {
+public class MyCollectionFragment extends BaseContentFragment {
 
-    public static MyloveFragment newInstance(){
-        MyloveFragment myloveFragment = new MyloveFragment();
-        return myloveFragment;
+    public static MyCollectionFragment newInstance(){
+        MyCollectionFragment myCollectionFragment = new MyCollectionFragment();
+        return myCollectionFragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        pageNum = 0;
     }
 
     @Override
@@ -35,7 +39,7 @@ public class MyloveFragment extends BaseContentFragment {
         setState(LOADING);
         User user = BmobUser.getCurrentUser(mContext, User.class);
         BmobQuery<Publication> query = new BmobQuery<Publication>();
-        query.addWhereRelatedTo("favorites", new BmobPointer(user));
+        query.addWhereRelatedTo("collections", new BmobPointer(user));
         query.order("-createdAt");
         query.setLimit(Constant.NUMBERS_PER_PAGE);
         BmobDate date = new BmobDate(new Date(System.currentTimeMillis()));
@@ -48,7 +52,7 @@ public class MyloveFragment extends BaseContentFragment {
             public void onSuccess(List<Publication> list) {
                 // TODO Auto-generated method stub
                 LogUtils.i(TAG, "find success." + list.size());
-                if(list.size()!=0&&list.get(list.size()-1)!=null){
+                if(list.size() !=0 && list.get(list.size()-1) != null){
                     if(mRefreshType==RefreshType.REFRESH){
                         mListItems.clear();
                     }
@@ -63,8 +67,7 @@ public class MyloveFragment extends BaseContentFragment {
                     mPullRefreshListView.onRefreshComplete();
                 }else{
                     ActivityUtil.show(getActivity(), "暂无更多数据~");
-                    if(list.size()==0&&mListItems.size()==0){
-
+                    if(list.size() == 0 && mListItems.size() == 0){
                         networkTips.setText("暂无收藏。快去首页收藏几个把~");
                         setState(LOADING_FAILED);
                         pageNum--;

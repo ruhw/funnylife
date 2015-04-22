@@ -63,7 +63,14 @@ public abstract class BaseContentAdapter<T> extends BaseAdapter{
 		
 		return getConvertView(position,convertView,parent);
 	}
-	
+
+    /**
+     * 处理getview（）的逻辑
+     * @param position
+     * @param convertView
+     * @param parent
+     * @return
+     */
 	public abstract View getConvertView(int position, View convertView, ViewGroup parent);
 
 }

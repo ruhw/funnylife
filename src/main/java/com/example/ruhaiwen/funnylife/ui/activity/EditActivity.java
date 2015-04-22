@@ -31,7 +31,6 @@ import com.example.ruhaiwen.funnylife.utils.LogUtils;
 import com.example.ruhaiwen.funnylife.utils.ToastFactory;
 import com.example.ruhaiwen.funnylife.view.ActionBar;
 
-import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobRelation;
 import cn.bmob.v3.listener.SaveListener;
 import cn.bmob.v3.listener.UpdateListener;
@@ -47,7 +46,7 @@ public class EditActivity extends BasePageActivity {
     private TextView mCountTextView;
     private String imageUrl;
     private String thumbPath;
-    private User user = FunnyLifeApplication.getInstance().getCurrentUser();
+    private User user;
     private String commitContent;
     private final int mEditTextMaxCount = 140;
 
@@ -55,6 +54,7 @@ public class EditActivity extends BasePageActivity {
     protected void setLayoutView() {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_edit);
+        user = FunnyLifeApplication.getInstance().getCurrentUser();
     }
 
     @Override
@@ -104,6 +104,7 @@ public class EditActivity extends BasePageActivity {
                     return;
                 }
                 compressImage(imageUrl, 1, 400, 400, 100);
+                finish();
             }
 
             @Override

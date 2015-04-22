@@ -6,9 +6,9 @@ import android.app.FragmentManager;
 import android.support.v13.app.FragmentPagerAdapter;
 
 import com.example.ruhaiwen.funnylife.ui.fragment.MainFragment;
+import com.example.ruhaiwen.funnylife.ui.fragment.MyCollectionFragment;
 import com.example.ruhaiwen.funnylife.ui.fragment.MyInfoFragment;
 import com.example.ruhaiwen.funnylife.ui.fragment.MyRelatedFragment;
-import com.example.ruhaiwen.funnylife.ui.fragment.MyloveFragment;
 
 /**
  * Created by ruhaiwen on 14-12-22.
@@ -37,7 +37,7 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return MainFragment.newInstance();
             case 1:
-                return MyloveFragment.newInstance();
+                return MyCollectionFragment.newInstance();
             case 2:
                 return MyRelatedFragment.newInstance();
             case 3:

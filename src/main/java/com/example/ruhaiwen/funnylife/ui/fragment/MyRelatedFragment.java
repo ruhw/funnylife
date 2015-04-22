@@ -31,7 +31,7 @@ public class MyRelatedFragment extends BaseContentFragment {
         setState(LOADING);
         User user = BmobUser.getCurrentUser(mContext, User.class);
         BmobQuery<Publication> query = new BmobQuery<Publication>();
-        query.addWhereRelatedTo("relations", new BmobPointer(user));
+        query.addWhereRelatedTo("myLoves", new BmobPointer(user));
         query.order("-createdAt");
         query.setLimit(Constant.NUMBERS_PER_PAGE);
         BmobDate date = new BmobDate(new Date(System.currentTimeMillis()));
@@ -59,7 +59,7 @@ public class MyRelatedFragment extends BaseContentFragment {
                     mPullRefreshListView.onRefreshComplete();
                 }else{
                     ActivityUtil.show(getActivity(), "暂无更多数据~");
-                    if(list.size()==0&&mListItems.size()==0){
+                    if(list.size() == 0 && mListItems.size() == 0){
 
                         networkTips.setText("暂无数据。。。");
                         setState(LOADING_FAILED);

@@ -23,6 +23,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile files('libs/BmobSDK_V3.3.4_0310.jar')
-    compile 'com.github.erd:android-volley:1.0.0'
     compile 'com.android.support:support-v13:22.0.0'
+    compile files('libs/universal-image-loader-1.9.3-with-sources.jar')
 }

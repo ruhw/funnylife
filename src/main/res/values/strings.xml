@@ -25,6 +25,7 @@
     </string-array>
 
     <string name="publish">发布</string>
-    
-   
+    <string name="comments">评论</string>
+
+
 </resources>

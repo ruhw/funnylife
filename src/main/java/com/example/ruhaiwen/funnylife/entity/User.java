@@ -6,27 +6,72 @@ import cn.bmob.v3.datatype.BmobRelation;
 
 
 /**
- * @author kingofglory email: kingofglory@yeah.net blog: http:www.google.com
- * @date 2014-3-14 TODO
+ * @author kevin
+ * @date 2015-4-10
  */
 
 public class User extends BmobUser{
 
 	public static final String TAG = "User";
 
-    private String nickname;//昵称
-	
-	private String signature;//签名
+    /**
+     * 用户头像url
+     */
+    private String userImageUrl;
+    /**
+     * 昵称
+     */
+    private String nickname;
+    /**
+     * 签名
+     */
+	private String signature;
+    /**
+     * 性别
+     */
+    private String sex;
+    /**
+     * 关联关系,发布的条目
+     */
+    private BmobRelation publications;
+    /**
+     * 关联关系,已收藏的条目
+     */
+    private BmobRelation collections;
+    /**
+     * 关联关系,已点赞的条目
+     */
+    private BmobRelation myLoves;
+    /**
+     * 关联关系,已评论的条目
+     */
+    private BmobRelation myComments;
 
-    private String sex;//性别
+    public BmobRelation getMyLoves() {
+        return myLoves;
+    }
 
-    private BmobRelation publications;//发布的条目
+    public void setMyLoves(BmobRelation myLoves) {
+        this.myLoves = myLoves;
+    }
 
-    private BmobRelation favorites;//收藏的条目
+    public BmobRelation getMyComments() {
+        return myComments;
+    }
 
-    private BmobRelation relations;//相关的条目
+    public void setMyComments(BmobRelation myComments) {
+        this.myComments = myComments;
+    }
 
-	public String getSex() {
+    public String getUserImageUrl() {
+        return userImageUrl;
+    }
+
+    public void setUserImageUrl(String userImageUrl) {
+        this.userImageUrl = userImageUrl;
+    }
+
+    public String getSex() {
 		return sex;
 	}
 
@@ -50,20 +95,12 @@ public class User extends BmobUser{
         this.nickname = nickname;
     }
 
-    public BmobRelation getRelations() {
-        return relations;
+    public BmobRelation getCollections() {
+        return collections;
     }
 
-    public void setRelations(BmobRelation relations) {
-        this.relations = relations;
-    }
-
-    public BmobRelation getFavorites() {
-        return favorites;
-    }
-
-    public void setFavorites(BmobRelation favorites) {
-        this.favorites = favorites;
+    public void setCollections(BmobRelation collections) {
+        this.collections = collections;
     }
 
     public BmobRelation getPublications() {

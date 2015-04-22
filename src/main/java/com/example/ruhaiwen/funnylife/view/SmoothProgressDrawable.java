@@ -57,9 +57,6 @@ public class SmoothProgressDrawable extends Drawable implements Animatable {
         mPaint.setAntiAlias(false);
     }
 
-    ////////////////////////////////////////////////////////////////////////////
-    ///////////////////         DRAW
-
     @Override
     public void draw(Canvas canvas) {
         mBounds = getBounds();
