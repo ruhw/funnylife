@@ -140,7 +140,7 @@ public class CommentActivity extends BasePageActivity implements OnClickListener
     private void initCommentItem() {
         Intent intent = getIntent();
         Bundle publicationBundle = intent.getExtras();
-        publication = (Publication)publicationBundle.getSerializable(CommentActivity.PUBLICATION);//MyApplication.getInstance().getCurrentQiangYu();
+        publication = (Publication)publicationBundle.getSerializable(CommentActivity.PUBLICATION);
         publicationHolder = new PublicationHolder(publication);
         publicationHolder.findView(commentItem);
         publicationHolder.setupView(mContext);

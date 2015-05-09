@@ -68,8 +68,10 @@ public class PublicationHolder extends ViewHolder{
 
     @Override
     public void setupView(Context context) {
+        String userIconUrl = BmobProFile.getInstance(context)
+                .signURL(entity.getAuthor().getUserIconName(),entity.getAuthor().getUserIconUrl(), Config.Access_KEY, 0, null);
         ImageLoader.getInstance()
-                .displayImage(entity.getAuthor().getUserImageUrl(), userLogo,
+                .displayImage(userIconUrl, userLogo,
                         FunnyLifeApplication.getInstance().getOptions(R.drawable.user_icon_default_main),
                         new SimpleImageLoadingListener(){
 

@@ -11,12 +11,7 @@ import com.example.ruhaiwen.funnylife.ui.base.BaseActivity;
 import cn.bmob.v3.Bmob;
 
 /**
- * @author kingofglory
- *         email: kingofglory@yeah.net
- *         blog:  http:www.google.com
- * @date 2014-2-21
- * TODO 闪屏界面，根据指定时间进行跳转
- * 		在activity_splash.xml中加入background属性并传入图片资源ID即可
+ * 软件引导界面
  */
 public class SplashActivity extends BaseActivity {
 

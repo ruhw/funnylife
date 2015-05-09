@@ -17,7 +17,11 @@ public class User extends BmobUser{
     /**
      * 用户头像url
      */
-    private String userImageUrl;
+    private String userIconUrl ;
+    /**
+     * 用户头像名称
+     */
+    private String userIconName ;
     /**
      * 昵称
      */
@@ -63,12 +67,20 @@ public class User extends BmobUser{
         this.myComments = myComments;
     }
 
-    public String getUserImageUrl() {
-        return userImageUrl;
+    public String getUserIconName() {
+        return userIconName;
     }
 
-    public void setUserImageUrl(String userImageUrl) {
-        this.userImageUrl = userImageUrl;
+    public void setUserIconName(String userIconName) {
+        this.userIconName = userIconName;
+    }
+
+    public String getUserIconUrl() {
+        return userIconUrl;
+    }
+
+    public void setUserIconUrl(String userIconUrl) {
+        this.userIconUrl = userIconUrl;
     }
 
     public String getSex() {

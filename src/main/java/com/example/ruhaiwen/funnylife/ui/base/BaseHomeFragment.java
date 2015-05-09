@@ -15,7 +15,6 @@ public abstract class BaseHomeFragment extends BaseFragment{
 		findViews(contentView);
 		setupViews(savedInstanceState);
 		setListener();
-		fetchData();
 		return contentView;
 	}
 
@@ -26,7 +25,5 @@ public abstract class BaseHomeFragment extends BaseFragment{
 	protected abstract void setupViews(Bundle bundle);
 
 	protected abstract void setListener();
-
-	protected abstract void fetchData();
 
 }

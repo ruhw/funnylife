@@ -13,7 +13,7 @@ import com.example.ruhaiwen.funnylife.view.ActionBar;
 
 public abstract class BaseHomeActivity extends BaseActivity{
 	
-	protected ActionBar actionBar;
+	public ActionBar actionBar;
 
 	@Override
 	protected void onCreate(Bundle bundle) {

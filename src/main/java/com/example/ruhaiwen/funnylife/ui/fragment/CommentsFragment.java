@@ -7,7 +7,6 @@ import com.example.ruhaiwen.funnylife.utils.ActivityUtil;
 import com.example.ruhaiwen.funnylife.utils.Constant;
 import com.example.ruhaiwen.funnylife.utils.LogUtils;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -18,33 +17,20 @@ import cn.bmob.v3.datatype.BmobPointer;
 import cn.bmob.v3.listener.FindListener;
 
 /**
- * Created by ruhaiwen on 15-4-3.
+ * Created by ruhaiwen on 15-5-2.
  */
-public class MyRelatedFragment extends BaseContentFragment {
-
-    public static MyRelatedFragment newInstance(){
-        MyRelatedFragment myRelatedFragment = new MyRelatedFragment();
-        return myRelatedFragment;
+public class CommentsFragment extends BaseContentFragment {
+    public static CommentsFragment newInstance(){
+        CommentsFragment commentsFragment = new CommentsFragment();
+        return commentsFragment;
     }
 
     @Override
     public void fetchData() {
         setState(LOADING);
         User user = BmobUser.getCurrentUser(mContext, User.class);
-        BmobQuery<Publication> queryUpVotes = new BmobQuery<Publication>();
-        queryUpVotes.addWhereRelatedTo("myLoves", new BmobPointer(user));
-        BmobQuery<Publication> queryUpLoads = new BmobQuery<Publication>();
-        queryUpLoads.addWhereRelatedTo("publications",new BmobPointer(user));
-        BmobQuery<Publication> queryComments = new BmobQuery<Publication>();
-        queryComments.addWhereRelatedTo("myComments",new BmobPointer(user));
-
-        List<BmobQuery<Publication>> queries = new ArrayList<BmobQuery<Publication>>();
-        queries.add(queryUpVotes);
-        queries.add(queryUpLoads);
-        queries.add(queryComments);
-
         BmobQuery<Publication> query = new BmobQuery<Publication>();
-        query.or(queries);
+        query.addWhereRelatedTo("myComments", new BmobPointer(user));
         query.order("-createdAt");
         query.setLimit(Constant.NUMBERS_PER_PAGE);
         BmobDate date = new BmobDate(new Date(System.currentTimeMillis()));

@@ -1,189 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-     <RelativeLayout
-        android:id="@+id/personal_icon"
-        android:layout_width="fill_parent"
-        android:layout_height="48.0dip" >
-
-        <TextView
-            android:id="@+id/personal_icon_tips"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="8dip"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:paddingRight="8dip"
-            android:text="头像:"
-            android:textColor="#787876"
-            android:textSize="16.0sp" />
-
-        		
-        <ImageView
-            android:id="@+id/personal_icon_content"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/personal_icon_tips"
-            android:contentDescription="@null"
-            android:src="@drawable/icon_app"
-            android:layout_margin="8dip"/>
-         
-        
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="17.0dip"
-            android:contentDescription="@null"
-            android:src="@drawable/icon_back_blue" />
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1.0dip"
-            android:layout_alignParentBottom="true"
-            android:background="#E8E8E8" />
-    </RelativeLayout>
-    <RelativeLayout
-        android:id="@+id/personal_sex"
-        android:layout_width="fill_parent"
-        android:layout_height="48.0dip" 
-        >
-		<TextView
-            android:id="@+id/personal_sex_tips"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="8dip"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:paddingRight="8dip"
-            android:text="性别:"
-            android:textColor="#787876"
-            android:textSize="16.0sp" />
-        
-		  <RadioGroup
-            android:id="@+id/personal_sex_content"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal"
-            android:layout_centerVertical="true"
-            >
-
-            <RadioButton
-                android:id="@+id/personal_sex_male"
-                android:layout_width="70.0dip"
-                android:layout_height="35.0dip"
-                android:background="@drawable/male_btn_selector"
-                android:button="@null" />
-
-            <RadioButton
-                android:id="@+id/personal_sex_female"
-                android:layout_width="70.0dip"
-                android:layout_height="35.0dip"
-                android:layout_marginLeft="30.0dip"
-                android:background="@drawable/female_btn_selector"
-                android:button="@null" />
-        </RadioGroup>
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1.0dip"
-            android:layout_alignParentBottom="true"
-            android:background="#E8E8E8" />
-    </RelativeLayout>
-     <RelativeLayout
-        android:id="@+id/personal_signature"
-        android:layout_width="fill_parent"
-        android:layout_height="48.0dip" >
-
-        <TextView
-            android:id="@+id/personal_signature_tips"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="8dip"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:paddingRight="8dip"
-            android:text="签名:"
-            android:textColor="#787876"
-            android:textSize="16.0sp" />
-		
-        	
-
-        <ImageView
-            android:id="@+id/personal_signature_arrow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="17.0dip"
-            android:layout_marginLeft="8dip"
-            android:contentDescription="@null"
-            android:src="@drawable/icon_back_blue" />
-        
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
         <RelativeLayout
-		    android:id="@+id/personal_signature_edit"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_toRightOf="@id/personal_signature_tips"
-		    android:layout_toLeftOf="@id/personal_signature_arrow"
-		   
-		    android:layout_centerVertical="true"
-		    >
-		    <TextView
-	            android:id="@+id/personal_signature_content"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:layout_marginLeft="8dip"
-	            android:ellipsize="end"
-	            android:paddingRight="8dip"
-	            android:text="这个家伙很懒，什么都没有留下"
-	            android:textColor="#787876"
-	            android:textSize="16.0sp" 
-	            android:visibility="visible"
-	            android:layout_centerVertical="true"/>	
-	        <EditText
-	            android:id="@+id/personal_signature_content_edit"
-	            android:layout_width="match_parent"
-	            android:layout_height="wrap_content"
-	            android:layout_marginLeft="8dip"
-	            android:singleLine="true"
-	            android:hint="说点什么吧。。。"
-	            android:textColor="#787876"
-	            android:textSize="16.0sp" 
-	            android:visibility="gone"
-	            android:layout_centerVertical="true"
-	            android:background="@drawable/selector_edittext"
-	            android:minHeight="36dp"
-	            android:paddingLeft="4dp"/>	
-		</RelativeLayout>
-
+            android:id="@+id/userIconLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/selector_settings_item_down">
+            <ImageView
+                android:id="@+id/userIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user_icon_default_main"/>
+            <TextView
+                android:id="@+id/changeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/userIcon"
+                android:text="@string/change_icon_str"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="1.0dip"
-            android:layout_alignParentBottom="true"
-            android:background="#E8E8E8" />
-    </RelativeLayout>
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="76dp"
+            android:background="@android:color/darker_gray"
+            />
+        <RelativeLayout
+            android:id="@+id/nickNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/selector_settings_item_down">
+            <TextView
+                android:id="@+id/nickNameTextView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/default_nickName"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/nickNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/nickNameTextView"
+                android:text="@string/edit_nickName"
+                android:textSize="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
 
-     <Button
-         android:id="@+id/personal_commit"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_gravity="center_horizontal"
-         android:textSize="18sp"
-         android:textColor="#ffffff"
-         android:layout_marginLeft="60dp"
-         android:layout_marginRight="60dp"
-         android:layout_marginTop="16dp"
-         android:minHeight="48dp"
-         android:text="提交"
-         android:background="@drawable/actionbar_btn"/>
+        <RelativeLayout
+            android:id="@+id/sexLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/selector_settings_item_down">
+            <TextView
+                android:id="@+id/sexTextView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/sex_str"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <CheckBox
+                android:id="@+id/sexSelectCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@drawable/selector_sex_choice"
+                android:checked="true"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="76dp"
+            android:background="@android:color/darker_gray"
+            />
+        <RelativeLayout
+            android:id="@+id/signatureLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/selector_settings_item_down">
+            <TextView
+                android:id="@+id/signatureTextView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:text="@string/signature"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/signatureEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/signatureTextView"
+                android:text="@string/default_signature"
+                android:textSize="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="76dp"/>
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/emailResetTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_email"
+            android:gravity="center|left"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/selector_settings_item_down"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/changePasswordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_password"
+            android:gravity="center|left"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/selector_settings_item_down"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+</ScrollView>

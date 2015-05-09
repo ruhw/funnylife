@@ -27,6 +27,7 @@ public class FunnyLifeApplication extends Application {
     public static FunnyLifeApplication sFunnyLifeApplication = null;
 
     public User user;
+
     @Override
     public void onCreate() {
         super.onCreate();

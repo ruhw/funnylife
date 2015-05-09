@@ -110,27 +110,6 @@ public final class ActivityUtil {
 
     }
 
-    //
-    // /**
-    // * @author adison 设置图片参数
-    // * @param bitmap
-    // * @param left
-    // * @param top
-    // * @param right
-    // * @param bottom
-    // * @param sourceWidth
-    // * @param sourceHeigth
-    // * @param screenRadio
-    // * @return
-    // */
-    // public static LayoutParams setImageViewParams(Bitmap bitmap, ImageView imageView, int left, int top, int right, int bottom,
-    // float sourceWidth, float sourceHeigth, float screenRadio, boolean fitSource) {
-    // float[] cons=getBitmapConfiguration(bitmap, imageView, sourceWidth, sourceHeigth, screenRadio, fitSource);
-    // LinearLayout.LayoutParams layoutParams=new LinearLayout.LayoutParams((int)cons[0], (int)cons[1]);
-    // layoutParams.gravity=Gravity.CENTER;
-    // layoutParams.setMargins(left, top, right, bottom);
-    // return layoutParams;
-    // }
 
     /**
      * 通过外部浏览器打开页面

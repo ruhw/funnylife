@@ -9,23 +9,32 @@
     
     <string name="settings_title">应用设置</string>
     
-    <string name="about_title">关于</string>
-    
-    <string-array name="navigations">
-        <item>设置</item>
-        <item>反馈</item>
-        <item>推荐</item>
-        <item>关于</item>
-    </string-array>
-       <string-array name="interpolators">
-        <item>Accelerate</item>
-        <item>Linear</item>
-        <item>AccelerateDecelerate</item>
-        <item>Decelerate</item>
-    </string-array>
-
+    <string name="about_title">关于软件</string>
     <string name="publish">发布</string>
     <string name="comments">评论</string>
+    <string name="default_nickName">昵称</string>
+    <string name="edit_myInfo">编辑个人信息</string>
+    <string name="settings">设置</string>
+    <string name="my_str">我</string>
+    <string name="upVotes">点赞</string>
+    <string name="upLoads">上传</string>
+    <string name="others">其他</string>
+    <string name="logout">退出登录</string>
+    <string name="related">与我相关</string>
+    <string name="change_icon_str">更改头像信息</string>
+    <string name="reset_email">邮箱重置</string>
+    <string name="change_password">修改密码</string>
+    <string name="sex_str">性别</string>
+    <string name="default_sex">未设置</string>
+    <string name="signature">签名</string>
+    <string name="default_signature">我很好。。。</string>
+    <string name="edit_nickName">未设置</string>
+    <string name="clear_picture_cache">清除图片缓存</string>
+    <string name="receive">接收推送消息</string>
+    <string name="check_version">检查更新</string>
+    <string name="about_app_str">关于FunnyLife</string>
+    <string name="welcome_str">FunnyLife,让生活更有乐趣!</string>
+    <string name="version_str">version 1.0</string>
 
 
 </resources>

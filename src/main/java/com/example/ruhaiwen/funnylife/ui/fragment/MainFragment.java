@@ -2,14 +2,10 @@ package com.example.ruhaiwen.funnylife.ui.fragment;
 
 import android.app.Activity;
 import android.content.ContentResolver;
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
-import android.graphics.Bitmap;
 import android.graphics.Rect;
-import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -30,12 +26,11 @@ import android.widget.Toast;
 import com.example.ruhaiwen.funnylife.FunnyLifeApplication;
 import com.example.ruhaiwen.funnylife.R;
 import com.example.ruhaiwen.funnylife.entity.Publication;
-import com.example.ruhaiwen.funnylife.ui.activity.EditActivity;
-import com.example.ruhaiwen.funnylife.ui.activity.MainActivity;
+import com.example.ruhaiwen.funnylife.ui.activity.PublicationEditActivity;
 import com.example.ruhaiwen.funnylife.ui.activity.RegisterAndLoginActivity;
+import com.example.ruhaiwen.funnylife.ui.base.BaseActivity;
 import com.example.ruhaiwen.funnylife.ui.base.BaseContentFragment;
 import com.example.ruhaiwen.funnylife.utils.ActivityUtil;
-import com.example.ruhaiwen.funnylife.utils.CacheUtils;
 import com.example.ruhaiwen.funnylife.utils.Constant;
 import com.example.ruhaiwen.funnylife.utils.LogUtils;
 
@@ -156,7 +151,7 @@ public class MainFragment extends BaseContentFragment {
         getActivity().getWindow().getDecorView().getWindowVisibleDisplayFrame(frame);
         //状态栏高度：frame.top
         xOffset = frame.top + getActivity().getActionBar().getHeight();//减去阴影宽度，适配UI.
-        yOffset = Dp2Px(getActivity(), 10f); //设置x方向offset为5dp
+        yOffset = ActivityUtil.dip2px(getActivity(), 10f); //设置x方向offset为5dp
         LayoutInflater inflater = LayoutInflater.from(mContext);
         View v = inflater.inflate(R.layout.popup,null);
         ListView popListView = (ListView)v.findViewById(R.id.popListView);
@@ -231,9 +226,7 @@ public class MainFragment extends BaseContentFragment {
             // 缓存用户对象为空时， 可打开用户注册界面…
             Toast.makeText(getActivity(), "请先登录。",
                     Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent();
-            intent.setClass(getActivity(), RegisterAndLoginActivity.class);
-            startActivity(intent);
+            ((BaseActivity)getActivity()).redictToActivity(mContext, RegisterAndLoginActivity.class, null);
         }
     }
 
@@ -271,19 +264,8 @@ public class MainFragment extends BaseContentFragment {
     private void jumpToActivity(String filePath) {
         Bundle bundle = new Bundle();
         bundle.putString(Constant.IMAGE_URL,filePath);
-        ((MainActivity)getActivity()).redictToActivity(mContext, EditActivity.class,bundle);
+        ((BaseActivity)getActivity()).redictToActivity(mContext, PublicationEditActivity.class,bundle);
     }
 
-    /**
-     * 在android中，为了适配不同屏幕密度和尺寸，android用了Dp单位，但是在Java代码中多是接受px单位的尺寸，所以这里要转换一下。
-     * Dp转换Px的方法。*
-     *
-     * @param context
-     * @param dp
-     * @return
-     */
-    public int Dp2Px(Context context, float dp) {
-        final float scale = context.getResources().getDisplayMetrics().density;
-        return (int) (dp * scale + 0.5f);
-    }
+
 }

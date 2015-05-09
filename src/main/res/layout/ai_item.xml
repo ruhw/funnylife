@@ -22,7 +22,7 @@
 	    android:layout_alignTop="@id/user_logo"
 	    android:layout_alignBottom="@id/user_logo"
 	    android:layout_marginLeft="8dip"
-	    />
+	    android:layout_centerInParent="true"/>
 	<ImageView 
 	    android:id="@+id/item_action_fav"
 	    android:layout_width="wrap_content"

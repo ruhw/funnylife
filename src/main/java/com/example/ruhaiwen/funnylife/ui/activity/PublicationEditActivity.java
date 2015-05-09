@@ -8,7 +8,6 @@ import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
@@ -38,7 +37,7 @@ import cn.bmob.v3.listener.UpdateListener;
 /**
  * Created by ruhaiwen on 15-4-3.
  */
-public class EditActivity extends BasePageActivity {
+public class PublicationEditActivity extends BasePageActivity {
 
     private ActionBar mActionBar;
     private ImageView mImageView;
@@ -100,7 +99,7 @@ public class EditActivity extends BasePageActivity {
                 // TODO Auto-generated method stub
                 commitContent = mEditText.getText().toString().trim();
                 if (TextUtils.isEmpty(commitContent)) {
-                    ActivityUtil.show(EditActivity.this, "内容不能为空");
+                    ActivityUtil.show(PublicationEditActivity.this, "内容不能为空");
                     return;
                 }
                 compressImage(imageUrl, 1, 400, 400, 100);
@@ -126,7 +125,7 @@ public class EditActivity extends BasePageActivity {
             @Override
             public void onSuccess() {
                 // TODO Auto-generated method stub
-                ActivityUtil.show(EditActivity.this, "发表成功！");
+                ActivityUtil.show(PublicationEditActivity.this, "发表成功！");
                 LogUtils.i(TAG, "创建成功。");
                 setResult(RESULT_OK);
                 addPublicationToUser(publication);
@@ -136,7 +135,7 @@ public class EditActivity extends BasePageActivity {
             @Override
             public void onFailure(int arg0, String arg1) {
                 // TODO Auto-generated method stub
-                ActivityUtil.show(EditActivity.this, "发表失败！yg" + arg1);
+                ActivityUtil.show(PublicationEditActivity.this, "发表失败！yg" + arg1);
                 LogUtils.i(TAG, "创建失败。" + arg1);
             }
         });
@@ -208,7 +207,7 @@ public class EditActivity extends BasePageActivity {
      * @param imageUrl
      */
     private void uploadImageAndPublish(String imageUrl, final String commitContent) {
-        BTPFileResponse response = BmobProFile.getInstance(mContext).upload(imageUrl, new UploadListener() {
+        BmobProFile.getInstance(mContext).upload(imageUrl, new UploadListener() {
 
             @Override
             public void onSuccess(String fileName,String url) {
