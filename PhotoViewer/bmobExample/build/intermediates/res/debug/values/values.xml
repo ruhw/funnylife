@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="batch_action_list">
+        <item>1. 批量添加</item>
+        <item>2. 批量更新</item>
+        <item>3. 批量删除</item>
+    </string-array>
+    <string-array name="bmob_findtest_list">
+        <item>1. 查询单个对象</item>
+        <item>2. 查询多个对象</item>
+        <item>3. count对象个数</item>
+        <item>4. 复合与查询</item>
+        <item>5. 复合或查询</item>
+    </string-array>
+    <string-array name="bmob_push_list">
+        <item>1. 订阅渠道</item>
+        <item>2. 取消订阅</item>
+        <item>3. 给所有人推送</item>
+        <item>4. 给指定Android用户推送</item>
+        <item>5. 给指定IOS用户推送</item>
+        <item>6. 给指定渠道用户推送</item>
+        <item>7. 给不活跃用户推送消息</item>
+        <item>8. 给Android平台推送</item>
+        <item>9. 给IOS平台推送</item>
+        <item>10. 根据地理位置信息推送</item>
+    </string-array>
+    <string-array name="bmob_test_list">
+        <item>1. 创建数据</item>
+        <item>2. 更新数据</item>
+        <item>3. 删除数据</item>
+        <item>4. 查询数据</item>
+        <item>5. 注册用户</item>
+        <item>6. 登陆用户</item>
+        <item>7. 获取本地用户</item>
+        <item>8. 清除本地用户</item>
+        <item>9. 更新用户</item>
+        <item>10. 重置密码</item>
+        <item>11. 验证旧密码</item>
+        <item>12. 验证邮件</item>
+        <item>13. 查询用户</item>
+        <item>14. 获取服务器时间</item>
+        <item>15. 文件上传</item>
+        <item>16. 云端代码</item>
+        <item>17. 关联数据</item>
+        <item>18. 批量操作</item>
+        <item>19. 推送服务</item>
+        <item>20. 数据实时同步</item>
+        <item>21. 应用自动更新</item>
+        <item>22. 新版文件服务</item>
+    </string-array>
+    <string-array name="list_arrays">
+        <item>1. 单一上传</item>
+        <item>2. 批量上传</item>
+        <item>3. 下载文件</item>
+        <item>4. 清除缓存</item>
+        <item>5. 获取当前缓存大小</item>
+        <item>6. 文件下载本地路径</item>
+        <item>7. 请求服务器生成缩略图任务</item>
+        <item>8. 本地生成缩略图</item>
+        
+    </string-array>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="border">#000000</color>
+    <color name="border_bkg">#FFFFFF</color>
+    <color name="button">#FFFFFF</color>
+    <color name="button_disable">#9C8E8E</color>
+    <color name="button_press">#F1F1F1</color>
+    <color name="button_text">#000000</color>
+    <color name="main_bkg">#E3DBCF</color>
+    <color name="text">#000000</color>
+    <color name="transparent">#00000000</color>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/bmob_update_string.xml -->
+    <eat-comment/>
+    <string name="BMAppUpdate">应用更新</string>
+    <string name="BMBreak_Network">未联网</string>
+    <string name="BMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="BMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="BMIgnore">忽略该版</string>
+    <string name="BMNewVersion">最新版本: </string>
+    <string name="BMNotNow">以后再说</string>
+    <string name="BMTargetSize">新版本大小:</string>
+    <string name="BMToast_IsUpdating">正在更新中....</string>
+    <string name="BMUpdateCheck">v3.1.4Beta</string>
+    <string name="BMUpdateContent">更新内容</string>
+    <string name="BMUpdateNow">立即更新</string>
+    <string name="BMUpdateSize">仅需要下载:</string>
+    <string name="BMUpdateTitle">发现新版本</string>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">BmobExample</string>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/bmob_common_strings.xml -->
+    <eat-comment/>
+    <string name="bmob_common_action_cancel">取消</string>
+    <string name="bmob_common_action_continue">继续</string>
+    <string name="bmob_common_action_info_exist">正在下载中.</string>
+    <string name="bmob_common_action_pause">暂停</string>
+    <string name="bmob_common_download_failed">下载失败</string>
+    <string name="bmob_common_download_finish">下载完成，请点击安装</string>
+    <string name="bmob_common_download_notification_prefix">正在下载: </string>
+    <string name="bmob_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="bmob_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="bmob_common_patch_finish">更新完成，请点击安装</string>
+    <string name="bmob_common_pause_notification_prefix">暂停: </string>
+    <string name="bmob_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="bmob_common_start_download_notification">正在下载应用</string>
+    <string name="bmob_common_start_patch_notification">正在更新安装包</string>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="close">关闭</string>
+    <string name="comment">评论</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="publish">发布</string>
+    <string name="share">随时随地分享...</string>
+    <string name="string_file_1">1、单条数据，一个BmobFile列</string>
+    <string name="string_file_2">2、单条数据，多个BmobFile列</string>
+    <string name="string_file_3">3、多条数据，每条数据一个BmobFile列</string>
+    <string name="string_file_4">4、多条数据，每条数据多个BmobFile列</string>
+    <string name="string_file_5">5、删除文件</string>
+    <string name="string_local_height">高度:</string>
+    <string name="string_local_id">规格ID:</string>
+    <string name="string_local_quality">压缩质量:</string>
+    <string name="string_local_set">指定规格ID</string>
+    <string name="string_local_set1">指定规格ID、宽、高</string>
+    <string name="string_local_set2">指定规格ID、宽、高、压缩质量</string>
+    <string name="string_local_width">宽度:</string>
+    <string name="tips">提示:此案例中的文件路径均为测试路径，开发者在运行前请自行替换！</string>
+    <string name="title_changelog">Bmob更新日志</string>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/bmobExample/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

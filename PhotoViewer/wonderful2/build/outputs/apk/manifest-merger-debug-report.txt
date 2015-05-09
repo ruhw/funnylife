@@ -1,0 +1,415 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:11:4
+	android:name
+		ADDED from AndroidManifest.xml:11:21
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.REORDER_TASKS
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+application
+ADDED from AndroidManifest.xml:27:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:30:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:28:9
+	android:icon
+		ADDED from AndroidManifest.xml:29:9
+	android:theme
+		ADDED from AndroidManifest.xml:31:9
+	android:name
+		ADDED from AndroidManifest.xml:32:9
+activity#com.xgr.wonderful.ui.SplashActivity
+ADDED from AndroidManifest.xml:33:9
+	android:label
+		ADDED from AndroidManifest.xml:35:13
+	android:theme
+		ADDED from AndroidManifest.xml:36:13
+	android:name
+		ADDED from AndroidManifest.xml:34:11
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:37:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:38:17
+	android:name
+		ADDED from AndroidManifest.xml:38:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:40:17
+	android:name
+		ADDED from AndroidManifest.xml:40:27
+activity#com.xgr.wonderful.ui.MainActivity
+ADDED from AndroidManifest.xml:43:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:44:16
+	android:theme
+		ADDED from AndroidManifest.xml:45:16
+	android:name
+		ADDED from AndroidManifest.xml:43:19
+activity#com.xgr.wonderful.ui.RegisterAndLoginActivity
+ADDED from AndroidManifest.xml:46:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:47:16
+	android:theme
+		ADDED from AndroidManifest.xml:48:16
+	android:name
+		ADDED from AndroidManifest.xml:46:19
+activity#com.xgr.wonderful.ui.EditActivity
+ADDED from AndroidManifest.xml:49:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:50:16
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:52:16
+	android:theme
+		ADDED from AndroidManifest.xml:51:16
+	android:name
+		ADDED from AndroidManifest.xml:49:19
+activity#com.xgr.wonderful.ui.CommentActivity
+ADDED from AndroidManifest.xml:54:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:55:19
+	android:theme
+		ADDED from AndroidManifest.xml:56:16
+	android:name
+		ADDED from AndroidManifest.xml:54:19
+activity#com.xgr.wonderful.ui.FavActivity
+ADDED from AndroidManifest.xml:57:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:58:19
+	android:theme
+		ADDED from AndroidManifest.xml:59:16
+	android:name
+		ADDED from AndroidManifest.xml:57:19
+activity#com.xgr.wonderful.ui.PersonalActivity
+ADDED from AndroidManifest.xml:60:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:61:19
+	android:theme
+		ADDED from AndroidManifest.xml:62:16
+	android:name
+		ADDED from AndroidManifest.xml:60:19
+activity#com.xgr.wonderful.ui.PersonalEditActivity
+ADDED from AndroidManifest.xml:63:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:64:19
+	android:theme
+		ADDED from AndroidManifest.xml:65:16
+	android:name
+		ADDED from AndroidManifest.xml:63:19
+activity#com.xgr.wonderful.ui.SettingsActivity
+ADDED from AndroidManifest.xml:66:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:67:19
+	android:theme
+		ADDED from AndroidManifest.xml:68:16
+	android:name
+		ADDED from AndroidManifest.xml:66:19
+activity#com.xgr.wonderful.ui.AboutActivity
+ADDED from AndroidManifest.xml:69:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:70:19
+	android:theme
+		ADDED from AndroidManifest.xml:71:16
+	android:name
+		ADDED from AndroidManifest.xml:69:20
+activity#com.xgr.wonderful.ui.EditSignActivity
+ADDED from AndroidManifest.xml:72:11
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:73:19
+	android:theme
+		ADDED from AndroidManifest.xml:74:16
+	android:name
+		ADDED from AndroidManifest.xml:72:21
+activity#com.umeng.fb.ConversationActivity
+ADDED from AndroidManifest.xml:76:10
+	android:theme
+		ADDED from AndroidManifest.xml:77:14
+	android:name
+		ADDED from AndroidManifest.xml:76:20
+activity#com.umeng.fb.ContactActivity
+ADDED from AndroidManifest.xml:78:10
+	android:theme
+		ADDED from AndroidManifest.xml:79:19
+	android:name
+		ADDED from AndroidManifest.xml:78:20
+meta-data#UMENG_APPKEY
+ADDED from AndroidManifest.xml:80:10
+	android:value
+		ADDED from AndroidManifest.xml:80:21
+	android:name
+		ADDED from AndroidManifest.xml:80:62
+meta-data#UMENG_CHANNEL
+ADDED from AndroidManifest.xml:81:10
+	android:value
+		ADDED from AndroidManifest.xml:81:21
+	android:name
+		ADDED from AndroidManifest.xml:81:46
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from AndroidManifest.xml:82:10
+	android:value
+		ADDED from AndroidManifest.xml:82:57
+	android:name
+		ADDED from AndroidManifest.xml:82:21
+service#com.umeng.update.net.DownloadingService
+ADDED from AndroidManifest.xml:84:7
+	android:process
+		ADDED from AndroidManifest.xml:86:11
+	android:name
+		ADDED from AndroidManifest.xml:85:11
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from AndroidManifest.xml:88:4
+	android:theme
+		ADDED from AndroidManifest.xml:90:14
+	android:name
+		ADDED from AndroidManifest.xml:89:11
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from AndroidManifest.xml:93:4
+	android:exported
+		ADDED from AndroidManifest.xml:95:8
+	android:name
+		ADDED from AndroidManifest.xml:94:8
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from AndroidManifest.xml:97:4
+	android:name
+		ADDED from AndroidManifest.xml:97:14
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:98:8
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:99:12
+	android:name
+		ADDED from AndroidManifest.xml:99:20
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:101:8
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:102:12
+	android:name
+		ADDED from AndroidManifest.xml:102:20
+data
+ADDED from AndroidManifest.xml:104:12
+	android:scheme
+		ADDED from AndroidManifest.xml:104:18
+receiver#com.umeng.message.UmengBroadcastReceiver
+ADDED from AndroidManifest.xml:107:4
+	android:name
+		ADDED from AndroidManifest.xml:107:14
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from AndroidManifest.xml:108:8
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from AndroidManifest.xml:109:12
+	android:name
+		ADDED from AndroidManifest.xml:109:20
+intent-filter#com.xgr.qingqiang.intent.action.COMMAND
+ADDED from AndroidManifest.xml:111:8
+action#com.xgr.qingqiang.intent.action.COMMAND
+ADDED from AndroidManifest.xml:112:12
+	android:name
+		ADDED from AndroidManifest.xml:112:20
+intent-filter#org.agoo.android.intent.action.RE_ELECTION_V2
+ADDED from AndroidManifest.xml:114:8
+action#org.agoo.android.intent.action.RE_ELECTION_V2
+ADDED from AndroidManifest.xml:115:12
+	android:name
+		ADDED from AndroidManifest.xml:115:20
+service#com.umeng.message.UmengService
+ADDED from AndroidManifest.xml:118:4
+	android:process
+		ADDED from AndroidManifest.xml:121:8
+	android:exported
+		ADDED from AndroidManifest.xml:120:8
+	android:name
+		ADDED from AndroidManifest.xml:119:8
+intent-filter#com.xgr.qingqiang.intent.action.START
+ADDED from AndroidManifest.xml:122:8
+action#com.xgr.qingqiang.intent.action.START
+ADDED from AndroidManifest.xml:123:12
+	android:name
+		ADDED from AndroidManifest.xml:123:20
+intent-filter#com.xgr.qingqiang.intent.action.COCKROACH
+ADDED from AndroidManifest.xml:125:8
+action#com.xgr.qingqiang.intent.action.COCKROACH
+ADDED from AndroidManifest.xml:126:12
+	android:name
+		ADDED from AndroidManifest.xml:126:20
+intent-filter#org.agoo.android.intent.action.PING
+ADDED from AndroidManifest.xml:128:8
+action#org.agoo.android.intent.action.PING
+ADDED from AndroidManifest.xml:129:12
+	android:name
+		ADDED from AndroidManifest.xml:129:20
+service#org.android.agoo.service.ElectionService
+ADDED from AndroidManifest.xml:132:4
+	android:process
+		ADDED from AndroidManifest.xml:135:8
+	android:exported
+		ADDED from AndroidManifest.xml:134:8
+	android:name
+		ADDED from AndroidManifest.xml:133:8
+intent-filter#org.agoo.android.intent.action.ELECTION_V2
+ADDED from AndroidManifest.xml:136:8
+action#org.agoo.android.intent.action.ELECTION_V2
+ADDED from AndroidManifest.xml:137:12
+	android:name
+		ADDED from AndroidManifest.xml:137:20
+service#com.umeng.message.UmengIntentService
+ADDED from AndroidManifest.xml:140:4
+	android:name
+		ADDED from AndroidManifest.xml:140:13
+activity#net.youmi.android.AdBrowser
+ADDED from AndroidManifest.xml:143:6
+	android:configChanges
+		ADDED from AndroidManifest.xml:145:8
+	android:theme
+		ADDED from AndroidManifest.xml:146:8
+	android:name
+		ADDED from AndroidManifest.xml:144:8
+service#net.youmi.android.AdService
+ADDED from AndroidManifest.xml:148:4
+	android:exported
+		ADDED from AndroidManifest.xml:150:8
+	android:name
+		ADDED from AndroidManifest.xml:149:8
+service#net.youmi.android.ExpService
+ADDED from AndroidManifest.xml:152:4
+	android:exported
+		ADDED from AndroidManifest.xml:154:8
+	android:name
+		ADDED from AndroidManifest.xml:153:8
+receiver#net.youmi.android.AdReceiver
+ADDED from AndroidManifest.xml:156:4
+	android:name
+		ADDED from AndroidManifest.xml:157:8
+intent-filter#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:158:8
+action#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:159:12
+	android:name
+		ADDED from AndroidManifest.xml:159:20
+receiver#net.youmi.android.offers.OffersReceiver
+ADDED from AndroidManifest.xml:163:4
+	android:exported
+		ADDED from AndroidManifest.xml:165:8
+	android:name
+		ADDED from AndroidManifest.xml:164:8
+meta-data#YOUMI_CHANNEL
+ADDED from AndroidManifest.xml:167:4
+	android:value
+		ADDED from AndroidManifest.xml:168:12
+	android:name
+		ADDED from AndroidManifest.xml:167:15
+activity#com.tencent.connect.common.AssistActivity
+ADDED from AndroidManifest.xml:172:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:175:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:174:13
+	android:theme
+		ADDED from AndroidManifest.xml:176:13
+	android:name
+		ADDED from AndroidManifest.xml:173:13
+activity#com.tencent.tauth.AuthActivity
+ADDED from AndroidManifest.xml:177:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:179:13
+	android:noHistory
+		ADDED from AndroidManifest.xml:180:13
+	android:name
+		ADDED from AndroidManifest.xml:178:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:181:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:182:17
+	android:name
+		ADDED from AndroidManifest.xml:182:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:183:17
+	android:name
+		ADDED from AndroidManifest.xml:183:27
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:184:17
+	android:name
+		ADDED from AndroidManifest.xml:184:27
+meta-data#TA_APPKEY
+ADDED from AndroidManifest.xml:191:9
+	android:value
+		ADDED from AndroidManifest.xml:193:13
+	android:name
+		ADDED from AndroidManifest.xml:192:13
+meta-data#InstallChannel
+ADDED from AndroidManifest.xml:195:9
+	android:value
+		ADDED from AndroidManifest.xml:197:13
+	android:name
+		ADDED from AndroidManifest.xml:196:13

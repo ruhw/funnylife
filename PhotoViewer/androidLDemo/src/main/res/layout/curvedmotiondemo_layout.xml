@@ -1,0 +1,191 @@
+<!--
+Copyright 2014 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/interpolatorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/interpolatorSpinner"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:text="@string/interpolator" />
+
+        <Spinner
+            android:id="@+id/interpolatorSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/interpolatorLabel" />
+
+
+        <SeekBar
+            android:id="@+id/durationSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/durationLabel"
+            android:max="2000" />
+
+        <TextView
+            android:id="@+id/durationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/interpolatorSpinner"
+            android:gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/animateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/interpolatorSpinner"
+            android:text="@string/animate" />
+
+        <View
+            android:id="@+id/square"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/durationSeek"
+            android:layout_alignParentLeft="true"
+            android:background="@color/purple"/>
+
+        <View
+            android:id="@+id/square2"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/durationSeek"
+            android:layout_alignParentRight="true"
+            android:background="@color/purple"/>
+        <View
+            android:id="@+id/square3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/square"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_corp_icon"/>
+         <View
+            android:id="@+id/square4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/square"
+            android:layout_toRightOf="@id/square3"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/perm_group_voicemail"/>
+
+        <LinearLayout
+            android:id="@+id/custom_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/square3"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Switch
+                    android:id="@+id/switch_id"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textOn="2"
+                    android:textOff="1"
+                    android:showText="true"
+                    />
+                <Button
+                    android:id="@+id/btn_start_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/btn_path_string"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <EditText
+                    android:id="@+id/txt_controlx1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/txt_string_controlx1"
+                    android:inputType="numberDecimal"
+                />
+                <EditText
+                    android:id="@+id/txt_controly1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/txt_string_controly1"
+                    android:inputType="numberDecimal"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+               <EditText
+                android:id="@+id/txt_controlx2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/txt_string_controlx2"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:id="@+id/txt_controly2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/txt_string_controly2"
+                android:inputType="numberDecimal"
+                />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.example.androidldemo.BezierView
+            android:id="@+id/bezier_id"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/custom_container"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="#AECFF5"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

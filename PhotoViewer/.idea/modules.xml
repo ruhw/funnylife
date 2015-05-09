@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/9GAG/9GAG.iml" filepath="$PROJECT_DIR$/9GAG/9GAG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoViewer.iml" filepath="$PROJECT_DIR$/PhotoViewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/ShimmerAndroid/ShimmerAndroid.iml" filepath="$PROJECT_DIR$/extras/ShimmerAndroid/ShimmerAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwitterClient/TwitterClient.iml" filepath="$PROJECT_DIR$/TwitterClient/TwitterClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_22_FragmentComposition_CriminalIntent/_22_FragmentComposition_CriminalIntent.iml" filepath="$PROJECT_DIR$/_22_FragmentComposition_CriminalIntent/_22_FragmentComposition_CriminalIntent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidLDemo/androidLDemo.iml" filepath="$PROJECT_DIR$/androidLDemo/androidLDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apiDemos/apiDemos.iml" filepath="$PROJECT_DIR$/apiDemos/apiDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appListLoader/appListLoader.iml" filepath="$PROJECT_DIR$/appListLoader/appListLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmobExample/bmobExample.iml" filepath="$PROJECT_DIR$/bmobExample/bmobExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/extras.iml" filepath="$PROJECT_DIR$/extras/extras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funnylife/funnylife.iml" filepath="$PROJECT_DIR$/funnylife/funnylife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobqueue/jobqueue.iml" filepath="$PROJECT_DIR$/jobqueue/jobqueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobqueueottodemo/jobqueueottodemo.iml" filepath="$PROJECT_DIR$/jobqueueottodemo/jobqueueottodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoWallFallsDemo/photoWallFallsDemo.iml" filepath="$PROJECT_DIR$/photoWallFallsDemo/photoWallFallsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universalImageLoader/universalImageLoader.iml" filepath="$PROJECT_DIR$/universalImageLoader/universalImageLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wonderful2/wonderful2.iml" filepath="$PROJECT_DIR$/wonderful2/wonderful2.iml" />
+    </modules>
+  </component>
+</project>
+

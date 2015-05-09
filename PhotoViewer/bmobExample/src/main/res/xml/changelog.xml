@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="V3.3.4_0310">
+        <change>1、修复自动更新组件的手动更新方式下无法强制用户更新应用的问题；</change>
+        <change>2、修复自动更新组件的自动更新方式下“忽略该版”按钮选中再取消后无法再次出现版本更新提示的问题；</change>
+        <change>3、自动更新组件中支持对更新内容根据分隔符"；"排版；</change>
+        <change>4、自动更新组件中允许下载已上传到应用市场的apk文件（须填写应用市场下载地址android_url）;</change>
+        <change>5、修复新版文件管理中开启URL签名认证后无法获取签名地址的问题；</change>
+        <change>6、修复某些特定情况下调用BmobUser的update方法后无法获取最近更新的用户信息；</change>
+    </release>
+</changelog>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/photoWallFallsDemo/build/intermediates/exploded-aar/PhotoViewer/jobqueue/unspecified/assets"/></dataSet><dataSet config="main"><source path="/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/photoWallFallsDemo/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/photoWallFallsDemo/src/debug/assets"/></dataSet></merger>

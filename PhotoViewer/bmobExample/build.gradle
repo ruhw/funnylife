@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "com.example.bmobexample"
+        minSdkVersion 8
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/BmobPush_V0.5beta_1027.jar')
+    compile files('libs/BmobSDK_V3.3.4_0310.jar')
+    compile files('libs/mta-sdk-1.0.0.jar')
+    compile files('libs/open_sdk.jar')
+    compile files('libs/weibosdkcore.jar')
+    compile 'com.android.support:support-v4:22.0.0'
+}

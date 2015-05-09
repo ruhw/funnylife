@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/androidLDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="interpolator_names">
+        <item>Linear</item>
+        <item>Fast Out Linear In</item>
+        <item>Fast Out Slow In</item>
+        <item>Linear Out Slow In</item>
+    </string-array>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/androidLDemo/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="color_checked">#FF5852FA</color>
+    <color name="color_normal">#FFEC52FA</color>
+    <color name="purple">#9c27b0</color>
+    <color name="yellow">#ff0</color>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/androidLDemo/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="button_height">70dp</dimen>
+    <dimen name="fab_press_translation_z">20dp</dimen>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/androidLDemo/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="color_1">#FF38C4EB</drawable>
+    <drawable name="color_2">#FF94EB38</drawable>
+    <drawable name="color_3">#FFF5DADC</drawable>
+    <drawable name="color_4">#FFB8B8B8</drawable>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/androidLDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AnimateVectorDrawablesDemo">AnimateVectorDrawablesDemo</string>
+    <string name="CurvedMotionDemo">CurvedMotionDemo</string>
+    <string name="RevealDemo">RevealDemo</string>
+    <string name="RippleDemo">RippleDemo</string>
+    <string name="ViewStateAnimatorDemo">ViewStateAnimatorDemo</string>
+    <string name="animate">Animate!</string>
+    <string name="animation_duration">Duration: %1$d ms</string>
+    <string name="app_name">AndroidLAnimation</string>
+    <string name="btn_path_string"> start animation</string>
+    <string name="button_borderless_ripple">button_borderless_ripple</string>
+    <string name="button_bound_ripple_default">button_bound_ripple_default</string>
+    <string name="button_bound_ripple_oval">button_bound_ripple_oval</string>
+    <string name="button_bound_ripple_oval_stroke">button_bound_ripple_oval_stroke</string>
+    <string name="button_bound_ripple_red">button_bound_ripple_red</string>
+    <string name="button_bound_ripple_red_bg">button_bound_ripple_red_bg</string>
+    <string name="button_reveal">button_reveal</string>
+    <string name="button_start_activity_reveal">button_start_activity_reveal</string>
+    <string name="button_stateListAnimator_translationz">button_stateListAnimator_translationz</string>
+    <string name="button_stateListAnimator_x">button_stateListAnimator_x</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="interpolator">Interpolator:</string>
+    <string name="path_circle">
+        M 50,50
+        m -48,0
+        a 48,48 0 1,0 96,0
+        a 48,48 0 1,0 -96,0
+      </string>
+    <string name="path_face_left_eye">
+        M 35,40
+        m -7,0
+        a 7,7 0 1,0 14,0
+        a 7,7 0 1,0 -14,0
+      </string>
+    <string name="path_face_mouth_happy">
+        M 30,65
+        Q 50,85 70,65
+      </string>
+    <string name="path_face_mouth_sad">
+        M 30,75
+        Q 50,55 70,75
+      </string>
+    <string name="path_face_right_eye">
+        M 65,40
+        m -7,0
+        a 7,7 0 1,0 14,0
+        a 7,7 0 1,0 -14,0
+      </string>
+    <string name="txt_animatedstatelistdrawable"> AnimatedStateListDrawable</string>
+    <string name="txt_statelistanimator"> StateListAnimator </string>
+    <string name="txt_string_controlx1"> controlX1(0.0f ~ 1.0f)</string>
+    <string name="txt_string_controlx2"> controlX2(0.0f ~ 1.0f)</string>
+    <string name="txt_string_controly1"> controlY1(0.0f ~ 1.0f)</string>
+    <string name="txt_string_controly2"> controlY2(0.0f ~ 1.0f)</string>
+    <!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/androidLDemo/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.AppBaseTheme" parent="@android:style/Theme.Material.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="Theme.AppTheme" parent="Theme.AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Theme.Transparent" parent="@android:style/Theme.Material.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,2755 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:22:1
+	package
+		ADDED from AndroidManifest.xml:23:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:22:11
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:28:5
+	android:name
+		ADDED from AndroidManifest.xml:28:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:29:5
+	android:name
+		ADDED from AndroidManifest.xml:29:22
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:22
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+uses-permission#android.permission.NFC
+ADDED from AndroidManifest.xml:34:5
+	android:name
+		ADDED from AndroidManifest.xml:34:22
+uses-permission#android.permission.TRANSMIT_IR
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:38:5
+	android:name
+		ADDED from AndroidManifest.xml:38:22
+uses-sdk
+ADDED from AndroidManifest.xml:40:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:40:41
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:40:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:44:5
+	android:name
+		ADDED from AndroidManifest.xml:44:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:45:5
+	android:name
+		ADDED from AndroidManifest.xml:45:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:46:5
+	android:required
+		ADDED from AndroidManifest.xml:46:68
+	android:name
+		ADDED from AndroidManifest.xml:46:19
+application
+ADDED from AndroidManifest.xml:48:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:49:13
+	android:supportsRtl
+		ADDED from AndroidManifest.xml:52:13
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:51:13
+	android:icon
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:48:18
+uses-library#com.example.will.never.exist
+ADDED from AndroidManifest.xml:56:9
+	android:required
+		ADDED from AndroidManifest.xml:56:67
+	android:name
+		ADDED from AndroidManifest.xml:56:23
+activity#com.example.android.apis.ApiDemos
+ADDED from AndroidManifest.xml:58:9
+	android:name
+		ADDED from AndroidManifest.xml:58:19
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:59:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:60:17
+	android:name
+		ADDED from AndroidManifest.xml:60:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:61:17
+	android:name
+		ADDED from AndroidManifest.xml:61:27
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:62:17
+	android:name
+		ADDED from AndroidManifest.xml:62:27
+activity#com.example.android.apis.app.HelloWorld
+ADDED from AndroidManifest.xml:72:9
+	android:label
+		ADDED from AndroidManifest.xml:72:50
+	android:name
+		ADDED from AndroidManifest.xml:72:19
+intent-filter#android.intent.action.MAIN+android.intent.category.SAMPLE_CODE
+ADDED from AndroidManifest.xml:73:13
+category#android.intent.category.SAMPLE_CODE
+ADDED from AndroidManifest.xml:75:17
+	android:name
+		ADDED from AndroidManifest.xml:75:27
+activity#com.example.android.apis.app.DialogActivity
+ADDED from AndroidManifest.xml:79:9
+	android:label
+		ADDED from AndroidManifest.xml:80:17
+	android:theme
+		ADDED from AndroidManifest.xml:81:17
+	android:name
+		ADDED from AndroidManifest.xml:79:19
+activity#com.example.android.apis.app.CustomDialogActivity
+ADDED from AndroidManifest.xml:88:9
+	android:label
+		ADDED from AndroidManifest.xml:89:17
+	android:theme
+		ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:88:19
+activity#com.example.android.apis.app.OverscanActivity
+ADDED from AndroidManifest.xml:97:9
+	android:enabled
+		ADDED from AndroidManifest.xml:100:17
+	android:label
+		ADDED from AndroidManifest.xml:98:17
+	android:theme
+		ADDED from AndroidManifest.xml:99:17
+	android:name
+		ADDED from AndroidManifest.xml:97:19
+activity#com.example.android.apis.app.QuickContactsDemo
+ADDED from AndroidManifest.xml:107:8
+	android:label
+		ADDED from AndroidManifest.xml:108:17
+	android:name
+		ADDED from AndroidManifest.xml:107:18
+activity#com.example.android.apis.app.WallpaperActivity
+ADDED from AndroidManifest.xml:115:9
+	android:label
+		ADDED from AndroidManifest.xml:116:17
+	android:theme
+		ADDED from AndroidManifest.xml:117:17
+	android:name
+		ADDED from AndroidManifest.xml:115:19
+activity#com.example.android.apis.app.TranslucentActivity
+ADDED from AndroidManifest.xml:124:9
+	android:label
+		ADDED from AndroidManifest.xml:125:17
+	android:theme
+		ADDED from AndroidManifest.xml:126:17
+	android:name
+		ADDED from AndroidManifest.xml:124:19
+activity#com.example.android.apis.app.TranslucentBlurActivity
+ADDED from AndroidManifest.xml:133:9
+	android:label
+		ADDED from AndroidManifest.xml:134:17
+	android:theme
+		ADDED from AndroidManifest.xml:135:17
+	android:name
+		ADDED from AndroidManifest.xml:133:19
+activity#com.example.android.apis.app.Animation
+ADDED from AndroidManifest.xml:142:9
+	android:label
+		ADDED from AndroidManifest.xml:142:49
+	android:name
+		ADDED from AndroidManifest.xml:142:19
+activity#com.example.android.apis.app.SaveRestoreState
+ADDED from AndroidManifest.xml:149:9
+	android:label
+		ADDED from AndroidManifest.xml:150:17
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:151:17
+	android:name
+		ADDED from AndroidManifest.xml:149:19
+activity#com.example.android.apis.app.PersistentState
+ADDED from AndroidManifest.xml:158:9
+	android:label
+		ADDED from AndroidManifest.xml:159:17
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:160:17
+	android:name
+		ADDED from AndroidManifest.xml:158:19
+activity#com.example.android.apis.app.ActivityRecreate
+ADDED from AndroidManifest.xml:167:9
+	android:enabled
+		ADDED from AndroidManifest.xml:169:17
+	android:label
+		ADDED from AndroidManifest.xml:168:17
+	android:name
+		ADDED from AndroidManifest.xml:167:19
+activity#com.example.android.apis.app.FinishAffinity
+ADDED from AndroidManifest.xml:176:9
+	android:enabled
+		ADDED from AndroidManifest.xml:179:17
+	android:label
+		ADDED from AndroidManifest.xml:177:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:178:17
+	android:name
+		ADDED from AndroidManifest.xml:176:19
+activity#com.example.android.apis.app.SoftInputModes
+ADDED from AndroidManifest.xml:186:9
+	android:label
+		ADDED from AndroidManifest.xml:187:17
+	android:name
+		ADDED from AndroidManifest.xml:186:19
+activity#com.example.android.apis.app.ReceiveResult
+ADDED from AndroidManifest.xml:194:9
+	android:label
+		ADDED from AndroidManifest.xml:194:53
+	android:name
+		ADDED from AndroidManifest.xml:194:19
+activity#com.example.android.apis.app.SendResult
+ADDED from AndroidManifest.xml:201:9
+	android:theme
+		ADDED from AndroidManifest.xml:202:17
+	android:name
+		ADDED from AndroidManifest.xml:201:19
+activity#com.example.android.apis.app.Forwarding
+ADDED from AndroidManifest.xml:205:9
+	android:label
+		ADDED from AndroidManifest.xml:205:50
+	android:name
+		ADDED from AndroidManifest.xml:205:19
+activity#com.example.android.apis.app.ForwardTarget
+ADDED from AndroidManifest.xml:212:9
+	android:name
+		ADDED from AndroidManifest.xml:212:19
+activity#com.example.android.apis.app.RedirectEnter
+ADDED from AndroidManifest.xml:215:9
+	android:label
+		ADDED from AndroidManifest.xml:215:53
+	android:name
+		ADDED from AndroidManifest.xml:215:19
+activity#com.example.android.apis.app.RedirectMain
+ADDED from AndroidManifest.xml:222:9
+	android:name
+		ADDED from AndroidManifest.xml:222:19
+activity#com.example.android.apis.app.RedirectGetter
+ADDED from AndroidManifest.xml:225:9
+	android:name
+		ADDED from AndroidManifest.xml:225:19
+activity#com.example.android.apis.app.CustomTitle
+ADDED from AndroidManifest.xml:230:9
+	android:label
+		ADDED from AndroidManifest.xml:231:17
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:232:17
+	android:theme
+		ADDED from AndroidManifest.xml:233:17
+	android:name
+		ADDED from AndroidManifest.xml:230:19
+activity#com.example.android.apis.app.ReorderOnLaunch
+ADDED from AndroidManifest.xml:240:9
+	android:label
+		ADDED from AndroidManifest.xml:241:17
+	android:name
+		ADDED from AndroidManifest.xml:240:19
+activity#com.example.android.apis.app.RotationAnimation
+ADDED from AndroidManifest.xml:248:9
+	android:label
+		ADDED from AndroidManifest.xml:249:17
+	android:name
+		ADDED from AndroidManifest.xml:248:19
+activity#com.example.android.apis.app.ReorderTwo
+ADDED from AndroidManifest.xml:256:9
+	android:name
+		ADDED from AndroidManifest.xml:256:19
+activity#com.example.android.apis.app.ReorderThree
+ADDED from AndroidManifest.xml:257:9
+	android:name
+		ADDED from AndroidManifest.xml:257:19
+activity#com.example.android.apis.app.ReorderFour
+ADDED from AndroidManifest.xml:258:9
+	android:name
+		ADDED from AndroidManifest.xml:258:19
+activity#com.example.android.apis.app.SetWallpaperActivity
+ADDED from AndroidManifest.xml:260:9
+	android:label
+		ADDED from AndroidManifest.xml:261:19
+	android:name
+		ADDED from AndroidManifest.xml:260:19
+activity#com.example.android.apis.app.ScreenOrientation
+ADDED from AndroidManifest.xml:268:9
+	android:label
+		ADDED from AndroidManifest.xml:269:19
+	android:name
+		ADDED from AndroidManifest.xml:268:19
+activity#com.example.android.apis.app.PresentationActivity
+ADDED from AndroidManifest.xml:276:9
+	android:label
+		ADDED from AndroidManifest.xml:277:17
+	android:name
+		ADDED from AndroidManifest.xml:276:19
+activity#com.example.android.apis.app.PresentationWithMediaRouterActivity
+ADDED from AndroidManifest.xml:284:9
+	android:label
+		ADDED from AndroidManifest.xml:285:17
+	android:name
+		ADDED from AndroidManifest.xml:284:19
+activity#com.example.android.apis.app.SecureWindowActivity
+ADDED from AndroidManifest.xml:292:9
+	android:label
+		ADDED from AndroidManifest.xml:293:17
+	android:name
+		ADDED from AndroidManifest.xml:292:19
+activity#com.example.android.apis.app.SecureDialogActivity
+ADDED from AndroidManifest.xml:300:9
+	android:label
+		ADDED from AndroidManifest.xml:301:17
+	android:name
+		ADDED from AndroidManifest.xml:300:19
+activity#com.example.android.apis.app.SecureSurfaceViewActivity
+ADDED from AndroidManifest.xml:308:9
+	android:label
+		ADDED from AndroidManifest.xml:309:17
+	android:name
+		ADDED from AndroidManifest.xml:308:19
+activity#com.example.android.apis.app.FragmentAlertDialog
+ADDED from AndroidManifest.xml:318:9
+	android:enabled
+		ADDED from AndroidManifest.xml:320:17
+	android:label
+		ADDED from AndroidManifest.xml:319:17
+	android:name
+		ADDED from AndroidManifest.xml:318:19
+activity#com.example.android.apis.app.FragmentArguments
+ADDED from AndroidManifest.xml:327:9
+	android:enabled
+		ADDED from AndroidManifest.xml:329:17
+	android:label
+		ADDED from AndroidManifest.xml:328:17
+	android:name
+		ADDED from AndroidManifest.xml:327:19
+activity#com.example.android.apis.app.FragmentCustomAnimations
+ADDED from AndroidManifest.xml:336:9
+	android:enabled
+		ADDED from AndroidManifest.xml:338:17
+	android:label
+		ADDED from AndroidManifest.xml:337:17
+	android:name
+		ADDED from AndroidManifest.xml:336:19
+activity#com.example.android.apis.app.FragmentHideShow
+ADDED from AndroidManifest.xml:345:9
+	android:enabled
+		ADDED from AndroidManifest.xml:348:17
+	android:label
+		ADDED from AndroidManifest.xml:346:17
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:347:17
+	android:name
+		ADDED from AndroidManifest.xml:345:19
+activity#com.example.android.apis.app.FragmentContextMenu
+ADDED from AndroidManifest.xml:355:9
+	android:enabled
+		ADDED from AndroidManifest.xml:357:17
+	android:label
+		ADDED from AndroidManifest.xml:356:17
+	android:name
+		ADDED from AndroidManifest.xml:355:19
+activity#com.example.android.apis.app.FragmentDialog
+ADDED from AndroidManifest.xml:364:9
+	android:enabled
+		ADDED from AndroidManifest.xml:366:17
+	android:label
+		ADDED from AndroidManifest.xml:365:17
+	android:name
+		ADDED from AndroidManifest.xml:364:19
+activity#com.example.android.apis.app.FragmentDialogOrActivity
+ADDED from AndroidManifest.xml:373:9
+	android:enabled
+		ADDED from AndroidManifest.xml:375:17
+	android:label
+		ADDED from AndroidManifest.xml:374:17
+	android:name
+		ADDED from AndroidManifest.xml:373:19
+activity#com.example.android.apis.app.FragmentLayout
+ADDED from AndroidManifest.xml:382:9
+	android:enabled
+		ADDED from AndroidManifest.xml:384:17
+	android:label
+		ADDED from AndroidManifest.xml:383:17
+	android:name
+		ADDED from AndroidManifest.xml:382:19
+activity#com.example.android.apis.app.FragmentLayout$DetailsActivity
+ADDED from AndroidManifest.xml:391:9
+	android:enabled
+		ADDED from AndroidManifest.xml:392:17
+	android:name
+		ADDED from AndroidManifest.xml:391:19
+activity#com.example.android.apis.app.FragmentListArray
+ADDED from AndroidManifest.xml:394:9
+	android:enabled
+		ADDED from AndroidManifest.xml:396:17
+	android:label
+		ADDED from AndroidManifest.xml:395:17
+	android:name
+		ADDED from AndroidManifest.xml:394:19
+activity#com.example.android.apis.app.FragmentMenu
+ADDED from AndroidManifest.xml:403:9
+	android:enabled
+		ADDED from AndroidManifest.xml:405:17
+	android:label
+		ADDED from AndroidManifest.xml:404:17
+	android:name
+		ADDED from AndroidManifest.xml:403:19
+activity#com.example.android.apis.app.FragmentNestingTabs
+ADDED from AndroidManifest.xml:412:9
+	android:enabled
+		ADDED from AndroidManifest.xml:414:17
+	android:label
+		ADDED from AndroidManifest.xml:413:17
+	android:name
+		ADDED from AndroidManifest.xml:412:19
+activity#com.example.android.apis.app.FragmentRetainInstance
+ADDED from AndroidManifest.xml:421:9
+	android:enabled
+		ADDED from AndroidManifest.xml:423:17
+	android:label
+		ADDED from AndroidManifest.xml:422:17
+	android:name
+		ADDED from AndroidManifest.xml:421:19
+activity#com.example.android.apis.app.FragmentReceiveResult
+ADDED from AndroidManifest.xml:430:9
+	android:enabled
+		ADDED from AndroidManifest.xml:432:17
+	android:label
+		ADDED from AndroidManifest.xml:431:17
+	android:name
+		ADDED from AndroidManifest.xml:430:19
+activity#com.example.android.apis.app.FragmentStack
+ADDED from AndroidManifest.xml:439:9
+	android:enabled
+		ADDED from AndroidManifest.xml:441:17
+	android:label
+		ADDED from AndroidManifest.xml:440:17
+	android:name
+		ADDED from AndroidManifest.xml:439:19
+activity#com.example.android.apis.app.FragmentTabs
+ADDED from AndroidManifest.xml:448:9
+	android:enabled
+		ADDED from AndroidManifest.xml:450:17
+	android:label
+		ADDED from AndroidManifest.xml:449:17
+	android:name
+		ADDED from AndroidManifest.xml:448:19
+activity#com.example.android.apis.app.LoaderCursor
+ADDED from AndroidManifest.xml:459:9
+	android:enabled
+		ADDED from AndroidManifest.xml:461:17
+	android:label
+		ADDED from AndroidManifest.xml:460:17
+	android:name
+		ADDED from AndroidManifest.xml:459:19
+activity#com.example.android.apis.app.LoaderCustom
+ADDED from AndroidManifest.xml:468:9
+	android:enabled
+		ADDED from AndroidManifest.xml:470:17
+	android:label
+		ADDED from AndroidManifest.xml:469:17
+	android:name
+		ADDED from AndroidManifest.xml:468:19
+activity#com.example.android.apis.app.LoaderThrottle
+ADDED from AndroidManifest.xml:478:9
+	android:enabled
+		ADDED from AndroidManifest.xml:480:17
+	android:label
+		ADDED from AndroidManifest.xml:479:17
+	android:name
+		ADDED from AndroidManifest.xml:478:19
+provider#com.example.android.apis.app.LoaderThrottle$SimpleProvider
+ADDED from AndroidManifest.xml:486:9
+	android:authorities
+		ADDED from AndroidManifest.xml:487:19
+	android:enabled
+		ADDED from AndroidManifest.xml:488:19
+	android:name
+		ADDED from AndroidManifest.xml:486:19
+activity#com.example.android.apis.app.LoaderRetained
+ADDED from AndroidManifest.xml:491:9
+	android:enabled
+		ADDED from AndroidManifest.xml:493:17
+	android:label
+		ADDED from AndroidManifest.xml:492:17
+	android:name
+		ADDED from AndroidManifest.xml:491:19
+activity#com.example.android.apis.app.Intents
+ADDED from AndroidManifest.xml:502:9
+	android:label
+		ADDED from AndroidManifest.xml:502:47
+	android:name
+		ADDED from AndroidManifest.xml:502:19
+activity#com.example.android.apis.app.IntentActivityFlags
+ADDED from AndroidManifest.xml:509:9
+	android:label
+		ADDED from AndroidManifest.xml:510:17
+	android:name
+		ADDED from AndroidManifest.xml:509:19
+service#com.example.android.apis.app.LocalService
+ADDED from AndroidManifest.xml:519:9
+	android:stopWithTask
+		ADDED from AndroidManifest.xml:519:51
+	android:name
+		ADDED from AndroidManifest.xml:519:18
+activity#com.example.android.apis.app.LocalServiceActivities$Controller
+ADDED from AndroidManifest.xml:521:9
+	android:label
+		ADDED from AndroidManifest.xml:522:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:523:17
+	android:name
+		ADDED from AndroidManifest.xml:521:19
+activity#com.example.android.apis.app.LocalServiceActivities$Binding
+ADDED from AndroidManifest.xml:530:9
+	android:label
+		ADDED from AndroidManifest.xml:531:17
+	android:name
+		ADDED from AndroidManifest.xml:530:19
+service#com.example.android.apis.app.MessengerService
+ADDED from AndroidManifest.xml:539:9
+	android:process
+		ADDED from AndroidManifest.xml:540:17
+	android:name
+		ADDED from AndroidManifest.xml:539:18
+activity#com.example.android.apis.app.MessengerServiceActivities$Binding
+ADDED from AndroidManifest.xml:543:9
+	android:label
+		ADDED from AndroidManifest.xml:544:17
+	android:name
+		ADDED from AndroidManifest.xml:543:19
+service#com.example.android.apis.app.RemoteService
+ADDED from AndroidManifest.xml:551:9
+	android:process
+		ADDED from AndroidManifest.xml:551:52
+	android:name
+		ADDED from AndroidManifest.xml:551:18
+intent-filter#com.example.android.apis.app.IRemoteService+com.example.android.apis.app.ISecondary+com.example.android.apis.app.REMOTE_SERVICE
+ADDED from AndroidManifest.xml:552:13
+action#com.example.android.apis.app.IRemoteService
+ADDED from AndroidManifest.xml:555:17
+	android:name
+		ADDED from AndroidManifest.xml:555:25
+action#com.example.android.apis.app.ISecondary
+ADDED from AndroidManifest.xml:556:17
+	android:name
+		ADDED from AndroidManifest.xml:556:25
+action#com.example.android.apis.app.REMOTE_SERVICE
+ADDED from AndroidManifest.xml:559:17
+	android:name
+		ADDED from AndroidManifest.xml:559:25
+activity#com.example.android.apis.app.RemoteService$Controller
+ADDED from AndroidManifest.xml:563:9
+	android:label
+		ADDED from AndroidManifest.xml:564:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:565:17
+	android:name
+		ADDED from AndroidManifest.xml:563:19
+activity#com.example.android.apis.app.RemoteService$Binding
+ADDED from AndroidManifest.xml:572:9
+	android:label
+		ADDED from AndroidManifest.xml:573:17
+	android:name
+		ADDED from AndroidManifest.xml:572:19
+activity#com.example.android.apis.app.RemoteService$BindingOptions
+ADDED from AndroidManifest.xml:580:9
+	android:label
+		ADDED from AndroidManifest.xml:581:17
+	android:name
+		ADDED from AndroidManifest.xml:580:19
+service#com.example.android.apis.app.ServiceStartArguments
+ADDED from AndroidManifest.xml:588:9
+	android:name
+		ADDED from AndroidManifest.xml:588:18
+activity#com.example.android.apis.app.ServiceStartArguments$Controller
+ADDED from AndroidManifest.xml:590:9
+	android:label
+		ADDED from AndroidManifest.xml:591:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:592:17
+	android:name
+		ADDED from AndroidManifest.xml:590:19
+service#com.example.android.apis.app.ForegroundService
+ADDED from AndroidManifest.xml:599:9
+	android:name
+		ADDED from AndroidManifest.xml:599:18
+activity#com.example.android.apis.app.ForegroundService$Controller
+ADDED from AndroidManifest.xml:601:9
+	android:label
+		ADDED from AndroidManifest.xml:602:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:603:17
+	android:name
+		ADDED from AndroidManifest.xml:601:19
+activity#com.example.android.apis.app.IsolatedService$Controller
+ADDED from AndroidManifest.xml:610:9
+	android:enabled
+		ADDED from AndroidManifest.xml:613:17
+	android:label
+		ADDED from AndroidManifest.xml:611:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:612:17
+	android:name
+		ADDED from AndroidManifest.xml:610:19
+service#com.example.android.apis.app.IsolatedService
+ADDED from AndroidManifest.xml:620:9
+	android:enabled
+		ADDED from AndroidManifest.xml:621:17
+	android:isolatedProcess
+		ADDED from AndroidManifest.xml:620:54
+	android:name
+		ADDED from AndroidManifest.xml:620:18
+service#com.example.android.apis.app.IsolatedService2
+ADDED from AndroidManifest.xml:622:9
+	android:enabled
+		ADDED from AndroidManifest.xml:623:17
+	android:isolatedProcess
+		ADDED from AndroidManifest.xml:622:55
+	android:name
+		ADDED from AndroidManifest.xml:622:18
+receiver#com.example.android.apis.app.OneShotAlarm
+ADDED from AndroidManifest.xml:627:9
+	android:process
+		ADDED from AndroidManifest.xml:627:52
+	android:name
+		ADDED from AndroidManifest.xml:627:19
+receiver#com.example.android.apis.app.RepeatingAlarm
+ADDED from AndroidManifest.xml:629:9
+	android:process
+		ADDED from AndroidManifest.xml:629:54
+	android:name
+		ADDED from AndroidManifest.xml:629:19
+activity#com.example.android.apis.app.AlarmController
+ADDED from AndroidManifest.xml:631:9
+	android:label
+		ADDED from AndroidManifest.xml:631:55
+	android:name
+		ADDED from AndroidManifest.xml:631:19
+service#com.example.android.apis.app.AlarmService_Service
+ADDED from AndroidManifest.xml:638:9
+	android:process
+		ADDED from AndroidManifest.xml:638:59
+	android:name
+		ADDED from AndroidManifest.xml:638:18
+activity#com.example.android.apis.app.AlarmService
+ADDED from AndroidManifest.xml:640:9
+	android:label
+		ADDED from AndroidManifest.xml:640:52
+	android:name
+		ADDED from AndroidManifest.xml:640:19
+receiver#com.example.android.apis.app.DoNothing
+ADDED from AndroidManifest.xml:649:9
+	android:process
+		ADDED from AndroidManifest.xml:650:17
+	android:exported
+		ADDED from AndroidManifest.xml:650:42
+	android:name
+		ADDED from AndroidManifest.xml:649:19
+activity#com.example.android.apis.accessibility.ClockBackActivity
+ADDED from AndroidManifest.xml:656:9
+	android:label
+		ADDED from AndroidManifest.xml:657:13
+	android:name
+		ADDED from AndroidManifest.xml:656:19
+service#com.example.android.apis.accessibility.ClockBackService
+ADDED from AndroidManifest.xml:664:9
+	android:label
+		ADDED from AndroidManifest.xml:665:13
+	android:permission
+		ADDED from AndroidManifest.xml:666:13
+	android:name
+		ADDED from AndroidManifest.xml:664:18
+intent-filter#android.accessibilityservice.AccessibilityService
+ADDED from AndroidManifest.xml:667:13
+action#android.accessibilityservice.AccessibilityService
+ADDED from AndroidManifest.xml:668:17
+	android:name
+		ADDED from AndroidManifest.xml:668:25
+activity#com.example.android.apis.accessibility.TaskListActivity
+ADDED from AndroidManifest.xml:672:9
+	android:enabled
+		ADDED from AndroidManifest.xml:674:19
+	android:label
+		ADDED from AndroidManifest.xml:673:19
+	android:name
+		ADDED from AndroidManifest.xml:672:19
+service#com.example.android.apis.accessibility.TaskBackService
+ADDED from AndroidManifest.xml:681:9
+	android:enabled
+		ADDED from AndroidManifest.xml:683:18
+	android:label
+		ADDED from AndroidManifest.xml:682:18
+	android:permission
+		ADDED from AndroidManifest.xml:684:18
+	android:name
+		ADDED from AndroidManifest.xml:681:18
+meta-data#android.accessibilityservice
+ADDED from AndroidManifest.xml:688:13
+	android:resource
+		ADDED from AndroidManifest.xml:690:17
+	android:name
+		ADDED from AndroidManifest.xml:689:17
+activity#com.example.android.apis.accessibility.CustomViewAccessibilityActivity
+ADDED from AndroidManifest.xml:693:9
+	android:enabled
+		ADDED from AndroidManifest.xml:695:19
+	android:label
+		ADDED from AndroidManifest.xml:694:19
+	android:name
+		ADDED from AndroidManifest.xml:693:19
+activity#com.example.android.apis.app.LocalSample
+ADDED from AndroidManifest.xml:704:9
+	android:label
+		ADDED from AndroidManifest.xml:704:51
+	android:name
+		ADDED from AndroidManifest.xml:704:19
+intent-filter#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:705:13
+activity#com.example.android.apis.app.ContactsFilter
+ADDED from AndroidManifest.xml:711:9
+	android:label
+		ADDED from AndroidManifest.xml:711:54
+	android:name
+		ADDED from AndroidManifest.xml:711:19
+activity#com.example.android.apis.app.NotifyWithText
+ADDED from AndroidManifest.xml:721:9
+	android:label
+		ADDED from AndroidManifest.xml:721:54
+	android:name
+		ADDED from AndroidManifest.xml:721:19
+activity#com.example.android.apis.app.IncomingMessage
+ADDED from AndroidManifest.xml:728:9
+	android:label
+		ADDED from AndroidManifest.xml:729:17
+	android:name
+		ADDED from AndroidManifest.xml:728:19
+activity#com.example.android.apis.app.IncomingMessageView
+ADDED from AndroidManifest.xml:736:9
+	android:label
+		ADDED from AndroidManifest.xml:737:17
+	android:name
+		ADDED from AndroidManifest.xml:736:19
+activity#com.example.android.apis.app.IncomingMessageInterstitial
+ADDED from AndroidManifest.xml:741:9
+	android:label
+		ADDED from AndroidManifest.xml:742:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:746:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:744:17
+	android:theme
+		ADDED from AndroidManifest.xml:743:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:745:17
+	android:name
+		ADDED from AndroidManifest.xml:741:19
+activity#com.example.android.apis.app.NotificationDisplay
+ADDED from AndroidManifest.xml:754:9
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:757:17
+	android:noHistory
+		ADDED from AndroidManifest.xml:758:17
+	android:theme
+		ADDED from AndroidManifest.xml:755:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:756:17
+	android:name
+		ADDED from AndroidManifest.xml:754:19
+activity#com.example.android.apis.app.StatusBarNotifications
+ADDED from AndroidManifest.xml:761:9
+	android:label
+		ADDED from AndroidManifest.xml:762:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:763:17
+	android:name
+		ADDED from AndroidManifest.xml:761:19
+service#com.example.android.apis.app.NotifyingService
+ADDED from AndroidManifest.xml:770:9
+	android:name
+		ADDED from AndroidManifest.xml:770:18
+activity#com.example.android.apis.app.NotifyingController
+ADDED from AndroidManifest.xml:772:9
+	android:label
+		ADDED from AndroidManifest.xml:772:59
+	android:name
+		ADDED from AndroidManifest.xml:772:19
+activity#com.example.android.apis.app.AlertDialogSamples
+ADDED from AndroidManifest.xml:780:9
+	android:label
+		ADDED from AndroidManifest.xml:780:58
+	android:name
+		ADDED from AndroidManifest.xml:780:19
+activity#com.example.android.apis.app.SearchInvoke
+ADDED from AndroidManifest.xml:794:9
+	android:label
+		ADDED from AndroidManifest.xml:795:19
+	android:name
+		ADDED from AndroidManifest.xml:794:19
+meta-data#android.app.default_searchable
+ADDED from AndroidManifest.xml:803:13
+	android:value
+		ADDED from AndroidManifest.xml:804:24
+	android:name
+		ADDED from AndroidManifest.xml:803:24
+activity#com.example.android.apis.app.SearchQueryResults
+ADDED from AndroidManifest.xml:818:9
+	android:label
+		ADDED from AndroidManifest.xml:819:19
+	android:name
+		ADDED from AndroidManifest.xml:818:19
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:827:13
+action#android.intent.action.SEARCH
+ADDED from AndroidManifest.xml:828:17
+	android:name
+		ADDED from AndroidManifest.xml:828:25
+meta-data#android.app.searchable
+ADDED from AndroidManifest.xml:835:13
+	android:resource
+		ADDED from AndroidManifest.xml:836:24
+	android:name
+		ADDED from AndroidManifest.xml:835:24
+provider#com.example.android.apis.app.SearchSuggestionSampleProvider
+ADDED from AndroidManifest.xml:842:9
+	android:authorities
+		ADDED from AndroidManifest.xml:843:19
+	android:name
+		ADDED from AndroidManifest.xml:842:19
+activity#com.example.android.apis.app.LauncherShortcuts
+ADDED from AndroidManifest.xml:868:9
+	android:label
+		ADDED from AndroidManifest.xml:869:19
+	android:name
+		ADDED from AndroidManifest.xml:868:19
+activity-alias#com.example.android.apis.app.CreateShortcuts
+ADDED from AndroidManifest.xml:881:9
+	android:label
+		ADDED from AndroidManifest.xml:883:13
+	android:targetActivity
+		ADDED from AndroidManifest.xml:882:13
+	android:name
+		ADDED from AndroidManifest.xml:881:25
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:886:13
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from AndroidManifest.xml:887:17
+	android:name
+		ADDED from AndroidManifest.xml:887:25
+activity#com.example.android.apis.app.MenuInflateFromXml
+ADDED from AndroidManifest.xml:895:9
+	android:label
+		ADDED from AndroidManifest.xml:895:58
+	android:name
+		ADDED from AndroidManifest.xml:895:19
+activity#com.example.android.apis.app.DeviceAdminSample
+ADDED from AndroidManifest.xml:904:9
+	android:label
+		ADDED from AndroidManifest.xml:905:17
+	android:name
+		ADDED from AndroidManifest.xml:904:19
+receiver#com.example.android.apis.app.DeviceAdminSample$DeviceAdminSampleReceiver
+ADDED from AndroidManifest.xml:913:9
+	android:label
+		ADDED from AndroidManifest.xml:914:17
+	android:permission
+		ADDED from AndroidManifest.xml:916:17
+	android:description
+		ADDED from AndroidManifest.xml:915:17
+	android:name
+		ADDED from AndroidManifest.xml:913:19
+meta-data#android.app.device_admin
+ADDED from AndroidManifest.xml:917:13
+	android:resource
+		ADDED from AndroidManifest.xml:918:24
+	android:name
+		ADDED from AndroidManifest.xml:917:24
+intent-filter#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from AndroidManifest.xml:919:13
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from AndroidManifest.xml:920:17
+	android:name
+		ADDED from AndroidManifest.xml:920:25
+activity#com.example.android.apis.app.VoiceRecognition
+ADDED from AndroidManifest.xml:927:9
+	android:label
+		ADDED from AndroidManifest.xml:927:56
+	android:name
+		ADDED from AndroidManifest.xml:927:19
+activity#com.example.android.apis.app.TextToSpeechActivity
+ADDED from AndroidManifest.xml:936:9
+	android:label
+		ADDED from AndroidManifest.xml:936:60
+	android:name
+		ADDED from AndroidManifest.xml:936:19
+activity#com.example.android.apis.app.ActionBarMechanics
+ADDED from AndroidManifest.xml:944:9
+	android:enabled
+		ADDED from AndroidManifest.xml:946:17
+	android:label
+		ADDED from AndroidManifest.xml:945:17
+	android:name
+		ADDED from AndroidManifest.xml:944:19
+activity#com.example.android.apis.app.ActionBarUsage
+ADDED from AndroidManifest.xml:953:9
+	android:enabled
+		ADDED from AndroidManifest.xml:955:17
+	android:label
+		ADDED from AndroidManifest.xml:954:17
+	android:name
+		ADDED from AndroidManifest.xml:953:19
+activity#com.example.android.apis.app.ActionBarDisplayOptions
+ADDED from AndroidManifest.xml:962:9
+	android:enabled
+		ADDED from AndroidManifest.xml:965:17
+	android:label
+		ADDED from AndroidManifest.xml:963:17
+	android:logo
+		ADDED from AndroidManifest.xml:964:17
+	android:name
+		ADDED from AndroidManifest.xml:962:19
+activity#com.example.android.apis.app.ActionBarTabs
+ADDED from AndroidManifest.xml:972:9
+	android:enabled
+		ADDED from AndroidManifest.xml:974:17
+	android:label
+		ADDED from AndroidManifest.xml:973:17
+	android:name
+		ADDED from AndroidManifest.xml:972:19
+activity#com.example.android.apis.app.ActionBarSettingsActionProviderActivity
+ADDED from AndroidManifest.xml:981:9
+	android:enabled
+		ADDED from AndroidManifest.xml:983:17
+	android:label
+		ADDED from AndroidManifest.xml:982:17
+	android:name
+		ADDED from AndroidManifest.xml:981:19
+activity#com.example.android.apis.app.ActionBarShareActionProviderActivity
+ADDED from AndroidManifest.xml:990:9
+	android:enabled
+		ADDED from AndroidManifest.xml:992:17
+	android:label
+		ADDED from AndroidManifest.xml:991:17
+	android:name
+		ADDED from AndroidManifest.xml:990:19
+activity#com.example.android.apis.app.PrintBitmap
+ADDED from AndroidManifest.xml:999:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1001:17
+	android:label
+		ADDED from AndroidManifest.xml:1000:17
+	android:name
+		ADDED from AndroidManifest.xml:999:19
+activity#com.example.android.apis.app.PrintHtmlFromScreen
+ADDED from AndroidManifest.xml:1008:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1010:17
+	android:label
+		ADDED from AndroidManifest.xml:1009:17
+	android:name
+		ADDED from AndroidManifest.xml:1008:19
+activity#com.example.android.apis.app.PrintHtmlOffScreen
+ADDED from AndroidManifest.xml:1017:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1019:17
+	android:label
+		ADDED from AndroidManifest.xml:1018:17
+	android:name
+		ADDED from AndroidManifest.xml:1017:19
+activity#com.example.android.apis.app.PrintCustomContent
+ADDED from AndroidManifest.xml:1026:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1028:17
+	android:label
+		ADDED from AndroidManifest.xml:1027:17
+	android:name
+		ADDED from AndroidManifest.xml:1026:19
+receiver#com.example.android.apis.app.AppUpdateReceiver
+ADDED from AndroidManifest.xml:1038:9
+	android:name
+		ADDED from AndroidManifest.xml:1038:19
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:1039:13
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:1040:17
+	android:name
+		ADDED from AndroidManifest.xml:1040:25
+receiver#com.example.android.apis.app.AppUpdateSspReceiver
+ADDED from AndroidManifest.xml:1045:9
+	android:name
+		ADDED from AndroidManifest.xml:1045:19
+intent-filter#android.intent.action.PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:1046:13
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:1047:17
+	android:name
+		ADDED from AndroidManifest.xml:1047:25
+data
+ADDED from AndroidManifest.xml:1048:17
+	android:scheme
+		ADDED from AndroidManifest.xml:1048:23
+	android:ssp
+		ADDED from AndroidManifest.xml:1048:48
+activity#com.example.android.apis.preference.FragmentPreferences
+ADDED from AndroidManifest.xml:1056:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1058:17
+	android:label
+		ADDED from AndroidManifest.xml:1057:17
+	android:name
+		ADDED from AndroidManifest.xml:1056:19
+activity#com.example.android.apis.preference.PreferenceWithHeaders
+ADDED from AndroidManifest.xml:1065:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1067:17
+	android:label
+		ADDED from AndroidManifest.xml:1066:17
+	android:name
+		ADDED from AndroidManifest.xml:1065:19
+activity#com.example.android.apis.preference.PreferencesFromXml
+ADDED from AndroidManifest.xml:1074:9
+	android:label
+		ADDED from AndroidManifest.xml:1075:17
+	android:name
+		ADDED from AndroidManifest.xml:1074:19
+activity#com.example.android.apis.preference.PreferencesFromCode
+ADDED from AndroidManifest.xml:1082:9
+	android:label
+		ADDED from AndroidManifest.xml:1083:17
+	android:name
+		ADDED from AndroidManifest.xml:1082:19
+activity#com.example.android.apis.preference.AdvancedPreferences
+ADDED from AndroidManifest.xml:1090:9
+	android:label
+		ADDED from AndroidManifest.xml:1091:17
+	android:name
+		ADDED from AndroidManifest.xml:1090:19
+activity#com.example.android.apis.preference.LaunchingPreferences
+ADDED from AndroidManifest.xml:1098:9
+	android:label
+		ADDED from AndroidManifest.xml:1099:17
+	android:name
+		ADDED from AndroidManifest.xml:1098:19
+activity#com.example.android.apis.preference.PreferenceDependencies
+ADDED from AndroidManifest.xml:1106:9
+	android:label
+		ADDED from AndroidManifest.xml:1107:17
+	android:name
+		ADDED from AndroidManifest.xml:1106:19
+activity#com.example.android.apis.preference.DefaultValues
+ADDED from AndroidManifest.xml:1114:9
+	android:label
+		ADDED from AndroidManifest.xml:1114:60
+	android:name
+		ADDED from AndroidManifest.xml:1114:19
+activity#com.example.android.apis.preference.SwitchPreference
+ADDED from AndroidManifest.xml:1121:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1123:17
+	android:label
+		ADDED from AndroidManifest.xml:1122:17
+	android:name
+		ADDED from AndroidManifest.xml:1121:19
+activity#com.example.android.apis.content.ClipboardSample
+ADDED from AndroidManifest.xml:1134:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1136:17
+	android:label
+		ADDED from AndroidManifest.xml:1135:17
+	android:name
+		ADDED from AndroidManifest.xml:1134:19
+activity#com.example.android.apis.content.ExternalStorage
+ADDED from AndroidManifest.xml:1143:9
+	android:label
+		ADDED from AndroidManifest.xml:1143:59
+	android:name
+		ADDED from AndroidManifest.xml:1143:19
+intent-filter#android.intent.action.MAIN+android.intent.category.EMBED+android.intent.category.SAMPLE_CODE
+ADDED from AndroidManifest.xml:1144:13
+category#android.intent.category.EMBED
+ADDED from AndroidManifest.xml:1147:17
+	android:name
+		ADDED from AndroidManifest.xml:1147:27
+activity#com.example.android.apis.content.StyledText
+ADDED from AndroidManifest.xml:1151:9
+	android:label
+		ADDED from AndroidManifest.xml:1151:54
+	android:name
+		ADDED from AndroidManifest.xml:1151:19
+activity#com.example.android.apis.content.ResourcesLayoutReference
+ADDED from AndroidManifest.xml:1169:9
+	android:label
+		ADDED from AndroidManifest.xml:1170:17
+	android:name
+		ADDED from AndroidManifest.xml:1169:19
+activity#com.example.android.apis.content.ResourcesWidthAndHeight
+ADDED from AndroidManifest.xml:1178:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1180:17
+	android:label
+		ADDED from AndroidManifest.xml:1179:17
+	android:name
+		ADDED from AndroidManifest.xml:1178:19
+activity#com.example.android.apis.content.ResourcesSmallestWidth
+ADDED from AndroidManifest.xml:1188:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1190:17
+	android:label
+		ADDED from AndroidManifest.xml:1189:17
+	android:name
+		ADDED from AndroidManifest.xml:1188:19
+activity#com.example.android.apis.content.ReadAsset
+ADDED from AndroidManifest.xml:1198:9
+	android:label
+		ADDED from AndroidManifest.xml:1198:53
+	android:name
+		ADDED from AndroidManifest.xml:1198:19
+activity#com.example.android.apis.content.ResourcesSample
+ADDED from AndroidManifest.xml:1206:9
+	android:label
+		ADDED from AndroidManifest.xml:1206:59
+	android:name
+		ADDED from AndroidManifest.xml:1206:19
+activity#com.example.android.apis.content.PickContact
+ADDED from AndroidManifest.xml:1213:9
+	android:label
+		ADDED from AndroidManifest.xml:1213:55
+	android:name
+		ADDED from AndroidManifest.xml:1213:19
+activity#com.example.android.apis.content.ChangedContacts
+ADDED from AndroidManifest.xml:1220:9
+	android:label
+		ADDED from AndroidManifest.xml:1220:59
+	android:name
+		ADDED from AndroidManifest.xml:1220:19
+activity#com.example.android.apis.content.InstallApk
+ADDED from AndroidManifest.xml:1227:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1228:17
+	android:label
+		ADDED from AndroidManifest.xml:1227:54
+	android:name
+		ADDED from AndroidManifest.xml:1227:19
+provider#com.example.android.apis.content.FileProvider
+ADDED from AndroidManifest.xml:1235:9
+	android:authorities
+		ADDED from AndroidManifest.xml:1236:19
+	android:enabled
+		ADDED from AndroidManifest.xml:1237:19
+	android:name
+		ADDED from AndroidManifest.xml:1235:19
+activity#com.example.android.apis.hardware.ConsumerIr
+ADDED from AndroidManifest.xml:1243:9
+	android:label
+		ADDED from AndroidManifest.xml:1243:55
+	android:name
+		ADDED from AndroidManifest.xml:1243:19
+activity#com.example.android.apis.os.MorseCode
+ADDED from AndroidManifest.xml:1254:9
+	android:label
+		ADDED from AndroidManifest.xml:1254:48
+	android:name
+		ADDED from AndroidManifest.xml:1254:19
+activity#com.example.android.apis.os.Sensors
+ADDED from AndroidManifest.xml:1261:9
+	android:label
+		ADDED from AndroidManifest.xml:1261:46
+	android:name
+		ADDED from AndroidManifest.xml:1261:19
+activity#com.example.android.apis.os.TriggerSensors
+ADDED from AndroidManifest.xml:1268:9
+	android:label
+		ADDED from AndroidManifest.xml:1268:53
+	android:name
+		ADDED from AndroidManifest.xml:1268:19
+activity#com.example.android.apis.os.RotationVectorDemo
+ADDED from AndroidManifest.xml:1275:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:1275:93
+	android:label
+		ADDED from AndroidManifest.xml:1275:57
+	android:name
+		ADDED from AndroidManifest.xml:1275:19
+activity#com.example.android.apis.os.SmsMessagingDemo
+ADDED from AndroidManifest.xml:1282:9
+	android:label
+		ADDED from AndroidManifest.xml:1282:55
+	android:name
+		ADDED from AndroidManifest.xml:1282:19
+activity#com.example.android.apis.os.SmsReceivedDialog
+ADDED from AndroidManifest.xml:1289:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:1291:19
+	android:theme
+		ADDED from AndroidManifest.xml:1290:19
+	android:name
+		ADDED from AndroidManifest.xml:1289:19
+receiver#com.example.android.apis.os.SmsMessageReceiver
+ADDED from AndroidManifest.xml:1293:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1293:57
+	android:name
+		ADDED from AndroidManifest.xml:1293:19
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from AndroidManifest.xml:1294:13
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from AndroidManifest.xml:1295:17
+	android:name
+		ADDED from AndroidManifest.xml:1295:25
+activity#com.example.android.apis.animation.AnimationLoading
+ADDED from AndroidManifest.xml:1303:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1305:17
+	android:label
+		ADDED from AndroidManifest.xml:1304:17
+	android:name
+		ADDED from AndroidManifest.xml:1303:19
+activity#com.example.android.apis.animation.AnimationCloning
+ADDED from AndroidManifest.xml:1312:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1314:17
+	android:label
+		ADDED from AndroidManifest.xml:1313:17
+	android:name
+		ADDED from AndroidManifest.xml:1312:19
+activity#com.example.android.apis.animation.AnimationSeeking
+ADDED from AndroidManifest.xml:1321:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1323:17
+	android:label
+		ADDED from AndroidManifest.xml:1322:17
+	android:name
+		ADDED from AndroidManifest.xml:1321:19
+activity#com.example.android.apis.animation.AnimatorEvents
+ADDED from AndroidManifest.xml:1330:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1332:17
+	android:label
+		ADDED from AndroidManifest.xml:1331:17
+	android:name
+		ADDED from AndroidManifest.xml:1330:19
+activity#com.example.android.apis.animation.BouncingBalls
+ADDED from AndroidManifest.xml:1339:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1341:17
+	android:label
+		ADDED from AndroidManifest.xml:1340:17
+	android:name
+		ADDED from AndroidManifest.xml:1339:19
+activity#com.example.android.apis.animation.CustomEvaluator
+ADDED from AndroidManifest.xml:1348:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1350:17
+	android:label
+		ADDED from AndroidManifest.xml:1349:17
+	android:name
+		ADDED from AndroidManifest.xml:1348:19
+activity#com.example.android.apis.animation.ListFlipper
+ADDED from AndroidManifest.xml:1357:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1359:17
+	android:label
+		ADDED from AndroidManifest.xml:1358:17
+	android:name
+		ADDED from AndroidManifest.xml:1357:19
+activity#com.example.android.apis.animation.ReversingAnimation
+ADDED from AndroidManifest.xml:1366:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1368:17
+	android:label
+		ADDED from AndroidManifest.xml:1367:17
+	android:name
+		ADDED from AndroidManifest.xml:1366:19
+activity#com.example.android.apis.animation.MultiPropertyAnimation
+ADDED from AndroidManifest.xml:1375:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1377:17
+	android:label
+		ADDED from AndroidManifest.xml:1376:17
+	android:name
+		ADDED from AndroidManifest.xml:1375:19
+activity#com.example.android.apis.animation.LayoutAnimations
+ADDED from AndroidManifest.xml:1384:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1386:17
+	android:label
+		ADDED from AndroidManifest.xml:1385:17
+	android:name
+		ADDED from AndroidManifest.xml:1384:19
+activity#com.example.android.apis.animation.LayoutAnimationsHideShow
+ADDED from AndroidManifest.xml:1393:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1395:17
+	android:label
+		ADDED from AndroidManifest.xml:1394:17
+	android:name
+		ADDED from AndroidManifest.xml:1393:19
+activity#com.example.android.apis.animation.LayoutAnimationsByDefault
+ADDED from AndroidManifest.xml:1402:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1404:19
+	android:label
+		ADDED from AndroidManifest.xml:1403:19
+	android:name
+		ADDED from AndroidManifest.xml:1402:19
+activity#com.example.android.apis.animation.Transitions
+ADDED from AndroidManifest.xml:1411:9
+	android:enabled
+		ADDED from AndroidManifest.xml:1413:19
+	android:label
+		ADDED from AndroidManifest.xml:1412:19
+	android:name
+		ADDED from AndroidManifest.xml:1411:19
+activity#com.example.android.apis.animation.Transition3d
+ADDED from AndroidManifest.xml:1424:9
+	android:label
+		ADDED from AndroidManifest.xml:1424:58
+	android:name
+		ADDED from AndroidManifest.xml:1424:19
+activity#com.example.android.apis.view.TextClockDemo
+ADDED from AndroidManifest.xml:1435:9
+	android:label
+		ADDED from AndroidManifest.xml:1435:54
+	android:name
+		ADDED from AndroidManifest.xml:1435:19
+activity#com.example.android.apis.view.ChronometerDemo
+ADDED from AndroidManifest.xml:1441:9
+	android:label
+		ADDED from AndroidManifest.xml:1441:56
+	android:name
+		ADDED from AndroidManifest.xml:1441:19
+activity#com.example.android.apis.view.WebView1
+ADDED from AndroidManifest.xml:1447:9
+	android:label
+		ADDED from AndroidManifest.xml:1447:49
+	android:name
+		ADDED from AndroidManifest.xml:1447:19
+activity#com.example.android.apis.view.RelativeLayout1
+ADDED from AndroidManifest.xml:1454:9
+	android:label
+		ADDED from AndroidManifest.xml:1454:56
+	android:name
+		ADDED from AndroidManifest.xml:1454:19
+activity#com.example.android.apis.view.RelativeLayout2
+ADDED from AndroidManifest.xml:1461:9
+	android:label
+		ADDED from AndroidManifest.xml:1461:56
+	android:name
+		ADDED from AndroidManifest.xml:1461:19
+activity#com.example.android.apis.view.LinearLayout1
+ADDED from AndroidManifest.xml:1468:9
+	android:label
+		ADDED from AndroidManifest.xml:1469:19
+	android:name
+		ADDED from AndroidManifest.xml:1468:19
+activity#com.example.android.apis.view.LinearLayout2
+ADDED from AndroidManifest.xml:1476:9
+	android:label
+		ADDED from AndroidManifest.xml:1477:19
+	android:name
+		ADDED from AndroidManifest.xml:1476:19
+activity#com.example.android.apis.view.LinearLayout3
+ADDED from AndroidManifest.xml:1484:9
+	android:label
+		ADDED from AndroidManifest.xml:1485:19
+	android:name
+		ADDED from AndroidManifest.xml:1484:19
+activity#com.example.android.apis.view.LinearLayout4
+ADDED from AndroidManifest.xml:1492:9
+	android:label
+		ADDED from AndroidManifest.xml:1493:19
+	android:name
+		ADDED from AndroidManifest.xml:1492:19
+activity#com.example.android.apis.view.LinearLayout5
+ADDED from AndroidManifest.xml:1500:9
+	android:label
+		ADDED from AndroidManifest.xml:1501:19
+	android:name
+		ADDED from AndroidManifest.xml:1500:19
+activity#com.example.android.apis.view.LinearLayout6
+ADDED from AndroidManifest.xml:1508:9
+	android:label
+		ADDED from AndroidManifest.xml:1509:19
+	android:name
+		ADDED from AndroidManifest.xml:1508:19
+activity#com.example.android.apis.view.LinearLayout7
+ADDED from AndroidManifest.xml:1516:9
+	android:label
+		ADDED from AndroidManifest.xml:1517:19
+	android:name
+		ADDED from AndroidManifest.xml:1516:19
+activity#com.example.android.apis.view.LinearLayout8
+ADDED from AndroidManifest.xml:1524:9
+	android:label
+		ADDED from AndroidManifest.xml:1525:19
+	android:name
+		ADDED from AndroidManifest.xml:1524:19
+activity#com.example.android.apis.view.LinearLayout9
+ADDED from AndroidManifest.xml:1532:9
+	android:label
+		ADDED from AndroidManifest.xml:1533:19
+	android:name
+		ADDED from AndroidManifest.xml:1532:19
+activity#com.example.android.apis.view.LinearLayout10
+ADDED from AndroidManifest.xml:1540:9
+	android:label
+		ADDED from AndroidManifest.xml:1541:19
+	android:name
+		ADDED from AndroidManifest.xml:1540:19
+activity#com.example.android.apis.view.CustomLayoutActivity
+ADDED from AndroidManifest.xml:1548:9
+	android:label
+		ADDED from AndroidManifest.xml:1549:19
+	android:name
+		ADDED from AndroidManifest.xml:1548:19
+activity#com.example.android.apis.view.RadioGroup1
+ADDED from AndroidManifest.xml:1556:9
+	android:label
+		ADDED from AndroidManifest.xml:1556:52
+	android:name
+		ADDED from AndroidManifest.xml:1556:19
+activity#com.example.android.apis.view.ScrollView1
+ADDED from AndroidManifest.xml:1563:9
+	android:label
+		ADDED from AndroidManifest.xml:1563:52
+	android:name
+		ADDED from AndroidManifest.xml:1563:19
+activity#com.example.android.apis.view.ScrollView2
+ADDED from AndroidManifest.xml:1570:9
+	android:label
+		ADDED from AndroidManifest.xml:1570:52
+	android:name
+		ADDED from AndroidManifest.xml:1570:19
+activity#com.example.android.apis.view.HorizontalScrollView1
+ADDED from AndroidManifest.xml:1577:9
+	android:label
+		ADDED from AndroidManifest.xml:1577:62
+	android:name
+		ADDED from AndroidManifest.xml:1577:19
+activity#com.example.android.apis.view.Tabs1
+ADDED from AndroidManifest.xml:1584:9
+	android:label
+		ADDED from AndroidManifest.xml:1584:46
+	android:name
+		ADDED from AndroidManifest.xml:1584:19
+activity#com.example.android.apis.view.Tabs2
+ADDED from AndroidManifest.xml:1591:9
+	android:label
+		ADDED from AndroidManifest.xml:1591:46
+	android:name
+		ADDED from AndroidManifest.xml:1591:19
+activity#com.example.android.apis.view.Tabs3
+ADDED from AndroidManifest.xml:1598:9
+	android:label
+		ADDED from AndroidManifest.xml:1598:46
+	android:name
+		ADDED from AndroidManifest.xml:1598:19
+activity#com.example.android.apis.view.Tabs4
+ADDED from AndroidManifest.xml:1605:9
+	android:label
+		ADDED from AndroidManifest.xml:1605:46
+	android:theme
+		ADDED from AndroidManifest.xml:1606:19
+	android:name
+		ADDED from AndroidManifest.xml:1605:19
+activity#com.example.android.apis.view.Tabs5
+ADDED from AndroidManifest.xml:1613:9
+	android:label
+		ADDED from AndroidManifest.xml:1613:46
+	android:name
+		ADDED from AndroidManifest.xml:1613:19
+activity#com.example.android.apis.view.Tabs6
+ADDED from AndroidManifest.xml:1620:9
+	android:label
+		ADDED from AndroidManifest.xml:1620:46
+	android:name
+		ADDED from AndroidManifest.xml:1620:19
+activity#com.example.android.apis.view.InternalSelectionScroll
+ADDED from AndroidManifest.xml:1627:9
+	android:label
+		ADDED from AndroidManifest.xml:1627:64
+	android:name
+		ADDED from AndroidManifest.xml:1627:19
+activity#com.example.android.apis.view.TableLayout1
+ADDED from AndroidManifest.xml:1634:9
+	android:label
+		ADDED from AndroidManifest.xml:1634:53
+	android:name
+		ADDED from AndroidManifest.xml:1634:19
+activity#com.example.android.apis.view.TableLayout2
+ADDED from AndroidManifest.xml:1641:9
+	android:label
+		ADDED from AndroidManifest.xml:1641:53
+	android:name
+		ADDED from AndroidManifest.xml:1641:19
+activity#com.example.android.apis.view.TableLayout3
+ADDED from AndroidManifest.xml:1648:9
+	android:label
+		ADDED from AndroidManifest.xml:1648:53
+	android:name
+		ADDED from AndroidManifest.xml:1648:19
+activity#com.example.android.apis.view.TableLayout4
+ADDED from AndroidManifest.xml:1655:9
+	android:label
+		ADDED from AndroidManifest.xml:1655:53
+	android:name
+		ADDED from AndroidManifest.xml:1655:19
+activity#com.example.android.apis.view.TableLayout5
+ADDED from AndroidManifest.xml:1662:9
+	android:label
+		ADDED from AndroidManifest.xml:1662:53
+	android:name
+		ADDED from AndroidManifest.xml:1662:19
+activity#com.example.android.apis.view.TableLayout6
+ADDED from AndroidManifest.xml:1669:9
+	android:label
+		ADDED from AndroidManifest.xml:1669:53
+	android:name
+		ADDED from AndroidManifest.xml:1669:19
+activity#com.example.android.apis.view.TableLayout7
+ADDED from AndroidManifest.xml:1676:9
+	android:label
+		ADDED from AndroidManifest.xml:1676:53
+	android:name
+		ADDED from AndroidManifest.xml:1676:19
+activity#com.example.android.apis.view.TableLayout8
+ADDED from AndroidManifest.xml:1683:9
+	android:label
+		ADDED from AndroidManifest.xml:1683:53
+	android:name
+		ADDED from AndroidManifest.xml:1683:19
+activity#com.example.android.apis.view.TableLayout9
+ADDED from AndroidManifest.xml:1690:9
+	android:label
+		ADDED from AndroidManifest.xml:1690:53
+	android:name
+		ADDED from AndroidManifest.xml:1690:19
+activity#com.example.android.apis.view.TableLayout10
+ADDED from AndroidManifest.xml:1697:9
+	android:label
+		ADDED from AndroidManifest.xml:1697:54
+	android:name
+		ADDED from AndroidManifest.xml:1697:19
+activity#com.example.android.apis.view.TableLayout11
+ADDED from AndroidManifest.xml:1704:9
+	android:label
+		ADDED from AndroidManifest.xml:1704:54
+	android:name
+		ADDED from AndroidManifest.xml:1704:19
+activity#com.example.android.apis.view.TableLayout12
+ADDED from AndroidManifest.xml:1711:9
+	android:label
+		ADDED from AndroidManifest.xml:1711:54
+	android:name
+		ADDED from AndroidManifest.xml:1711:19
+activity#com.example.android.apis.view.GridLayout1
+ADDED from AndroidManifest.xml:1718:9
+	android:label
+		ADDED from AndroidManifest.xml:1718:52
+	android:name
+		ADDED from AndroidManifest.xml:1718:19
+activity#com.example.android.apis.view.GridLayout2
+ADDED from AndroidManifest.xml:1725:9
+	android:label
+		ADDED from AndroidManifest.xml:1725:52
+	android:name
+		ADDED from AndroidManifest.xml:1725:19
+activity#com.example.android.apis.view.GridLayout3
+ADDED from AndroidManifest.xml:1732:9
+	android:label
+		ADDED from AndroidManifest.xml:1732:52
+	android:name
+		ADDED from AndroidManifest.xml:1732:19
+activity#com.example.android.apis.view.Baseline1
+ADDED from AndroidManifest.xml:1739:9
+	android:label
+		ADDED from AndroidManifest.xml:1739:50
+	android:name
+		ADDED from AndroidManifest.xml:1739:19
+activity#com.example.android.apis.view.Baseline2
+ADDED from AndroidManifest.xml:1746:9
+	android:label
+		ADDED from AndroidManifest.xml:1746:50
+	android:name
+		ADDED from AndroidManifest.xml:1746:19
+activity#com.example.android.apis.view.Baseline3
+ADDED from AndroidManifest.xml:1753:9
+	android:label
+		ADDED from AndroidManifest.xml:1753:50
+	android:name
+		ADDED from AndroidManifest.xml:1753:19
+activity#com.example.android.apis.view.Baseline4
+ADDED from AndroidManifest.xml:1760:9
+	android:label
+		ADDED from AndroidManifest.xml:1760:50
+	android:name
+		ADDED from AndroidManifest.xml:1760:19
+activity#com.example.android.apis.view.Baseline6
+ADDED from AndroidManifest.xml:1767:9
+	android:label
+		ADDED from AndroidManifest.xml:1767:50
+	android:name
+		ADDED from AndroidManifest.xml:1767:19
+activity#com.example.android.apis.view.Baseline7
+ADDED from AndroidManifest.xml:1774:9
+	android:label
+		ADDED from AndroidManifest.xml:1774:50
+	android:name
+		ADDED from AndroidManifest.xml:1774:19
+activity#com.example.android.apis.view.BaselineNested1
+ADDED from AndroidManifest.xml:1781:9
+	android:label
+		ADDED from AndroidManifest.xml:1781:56
+	android:name
+		ADDED from AndroidManifest.xml:1781:19
+activity#com.example.android.apis.view.BaselineNested2
+ADDED from AndroidManifest.xml:1788:9
+	android:label
+		ADDED from AndroidManifest.xml:1788:56
+	android:name
+		ADDED from AndroidManifest.xml:1788:19
+activity#com.example.android.apis.view.BaselineNested3
+ADDED from AndroidManifest.xml:1795:9
+	android:label
+		ADDED from AndroidManifest.xml:1795:56
+	android:name
+		ADDED from AndroidManifest.xml:1795:19
+activity#com.example.android.apis.view.ScrollBar1
+ADDED from AndroidManifest.xml:1802:9
+	android:label
+		ADDED from AndroidManifest.xml:1802:51
+	android:name
+		ADDED from AndroidManifest.xml:1802:19
+activity#com.example.android.apis.view.ScrollBar2
+ADDED from AndroidManifest.xml:1809:9
+	android:label
+		ADDED from AndroidManifest.xml:1809:51
+	android:name
+		ADDED from AndroidManifest.xml:1809:19
+activity#com.example.android.apis.view.ScrollBar3
+ADDED from AndroidManifest.xml:1816:9
+	android:label
+		ADDED from AndroidManifest.xml:1816:51
+	android:name
+		ADDED from AndroidManifest.xml:1816:19
+activity#com.example.android.apis.view.Visibility1
+ADDED from AndroidManifest.xml:1823:9
+	android:label
+		ADDED from AndroidManifest.xml:1823:52
+	android:name
+		ADDED from AndroidManifest.xml:1823:19
+activity#com.example.android.apis.view.List1
+ADDED from AndroidManifest.xml:1830:9
+	android:label
+		ADDED from AndroidManifest.xml:1830:46
+	android:name
+		ADDED from AndroidManifest.xml:1830:19
+activity#com.example.android.apis.view.List2
+ADDED from AndroidManifest.xml:1837:9
+	android:label
+		ADDED from AndroidManifest.xml:1837:46
+	android:name
+		ADDED from AndroidManifest.xml:1837:19
+activity#com.example.android.apis.view.List3
+ADDED from AndroidManifest.xml:1844:9
+	android:label
+		ADDED from AndroidManifest.xml:1844:46
+	android:name
+		ADDED from AndroidManifest.xml:1844:19
+activity#com.example.android.apis.view.List4
+ADDED from AndroidManifest.xml:1851:9
+	android:label
+		ADDED from AndroidManifest.xml:1851:46
+	android:name
+		ADDED from AndroidManifest.xml:1851:19
+activity#com.example.android.apis.view.List5
+ADDED from AndroidManifest.xml:1858:9
+	android:label
+		ADDED from AndroidManifest.xml:1858:46
+	android:name
+		ADDED from AndroidManifest.xml:1858:19
+activity#com.example.android.apis.view.List6
+ADDED from AndroidManifest.xml:1865:9
+	android:label
+		ADDED from AndroidManifest.xml:1865:46
+	android:name
+		ADDED from AndroidManifest.xml:1865:19
+activity#com.example.android.apis.view.List7
+ADDED from AndroidManifest.xml:1872:9
+	android:label
+		ADDED from AndroidManifest.xml:1872:46
+	android:name
+		ADDED from AndroidManifest.xml:1872:19
+activity#com.example.android.apis.view.List8
+ADDED from AndroidManifest.xml:1879:9
+	android:label
+		ADDED from AndroidManifest.xml:1879:46
+	android:name
+		ADDED from AndroidManifest.xml:1879:19
+activity#com.example.android.apis.view.List9
+ADDED from AndroidManifest.xml:1886:9
+	android:label
+		ADDED from AndroidManifest.xml:1886:46
+	android:name
+		ADDED from AndroidManifest.xml:1886:19
+activity#com.example.android.apis.view.List10
+ADDED from AndroidManifest.xml:1893:9
+	android:label
+		ADDED from AndroidManifest.xml:1893:47
+	android:name
+		ADDED from AndroidManifest.xml:1893:19
+activity#com.example.android.apis.view.List11
+ADDED from AndroidManifest.xml:1900:9
+	android:label
+		ADDED from AndroidManifest.xml:1900:47
+	android:name
+		ADDED from AndroidManifest.xml:1900:19
+activity#com.example.android.apis.view.List12
+ADDED from AndroidManifest.xml:1907:9
+	android:label
+		ADDED from AndroidManifest.xml:1907:47
+	android:name
+		ADDED from AndroidManifest.xml:1907:19
+activity#com.example.android.apis.view.List13
+ADDED from AndroidManifest.xml:1914:9
+	android:label
+		ADDED from AndroidManifest.xml:1914:47
+	android:name
+		ADDED from AndroidManifest.xml:1914:19
+activity#com.example.android.apis.view.List14
+ADDED from AndroidManifest.xml:1921:9
+	android:label
+		ADDED from AndroidManifest.xml:1921:47
+	android:name
+		ADDED from AndroidManifest.xml:1921:19
+activity#com.example.android.apis.view.List15
+ADDED from AndroidManifest.xml:1928:9
+	android:label
+		ADDED from AndroidManifest.xml:1928:47
+	android:name
+		ADDED from AndroidManifest.xml:1928:19
+activity#com.example.android.apis.view.List16
+ADDED from AndroidManifest.xml:1935:9
+	android:label
+		ADDED from AndroidManifest.xml:1935:47
+	android:name
+		ADDED from AndroidManifest.xml:1935:19
+activity#com.example.android.apis.view.List17
+ADDED from AndroidManifest.xml:1942:9
+	android:label
+		ADDED from AndroidManifest.xml:1942:47
+	android:name
+		ADDED from AndroidManifest.xml:1942:19
+activity#com.example.android.apis.view.ExpandableList1
+ADDED from AndroidManifest.xml:1949:9
+	android:label
+		ADDED from AndroidManifest.xml:1949:56
+	android:name
+		ADDED from AndroidManifest.xml:1949:19
+activity#com.example.android.apis.view.ExpandableList2
+ADDED from AndroidManifest.xml:1956:9
+	android:label
+		ADDED from AndroidManifest.xml:1956:56
+	android:name
+		ADDED from AndroidManifest.xml:1956:19
+activity#com.example.android.apis.view.ExpandableList3
+ADDED from AndroidManifest.xml:1963:9
+	android:label
+		ADDED from AndroidManifest.xml:1963:56
+	android:name
+		ADDED from AndroidManifest.xml:1963:19
+activity#com.example.android.apis.view.CustomView1
+ADDED from AndroidManifest.xml:1970:9
+	android:label
+		ADDED from AndroidManifest.xml:1971:17
+	android:theme
+		ADDED from AndroidManifest.xml:1972:17
+	android:name
+		ADDED from AndroidManifest.xml:1970:19
+activity#com.example.android.apis.view.Gallery1
+ADDED from AndroidManifest.xml:1979:9
+	android:label
+		ADDED from AndroidManifest.xml:1979:49
+	android:name
+		ADDED from AndroidManifest.xml:1979:19
+activity#com.example.android.apis.view.Gallery2
+ADDED from AndroidManifest.xml:1986:9
+	android:label
+		ADDED from AndroidManifest.xml:1986:49
+	android:name
+		ADDED from AndroidManifest.xml:1986:19
+activity#com.example.android.apis.view.Spinner1
+ADDED from AndroidManifest.xml:1993:9
+	android:label
+		ADDED from AndroidManifest.xml:1993:49
+	android:name
+		ADDED from AndroidManifest.xml:1993:19
+activity#com.example.android.apis.view.Grid1
+ADDED from AndroidManifest.xml:2000:9
+	android:label
+		ADDED from AndroidManifest.xml:2000:46
+	android:name
+		ADDED from AndroidManifest.xml:2000:19
+activity#com.example.android.apis.view.Grid2
+ADDED from AndroidManifest.xml:2007:9
+	android:label
+		ADDED from AndroidManifest.xml:2007:46
+	android:name
+		ADDED from AndroidManifest.xml:2007:19
+activity#com.example.android.apis.view.Grid3
+ADDED from AndroidManifest.xml:2014:9
+	android:label
+		ADDED from AndroidManifest.xml:2015:19
+	android:name
+		ADDED from AndroidManifest.xml:2014:19
+activity#com.example.android.apis.view.ImageView1
+ADDED from AndroidManifest.xml:2022:9
+	android:label
+		ADDED from AndroidManifest.xml:2023:17
+	android:name
+		ADDED from AndroidManifest.xml:2022:19
+activity#com.example.android.apis.view.ImageSwitcher1
+ADDED from AndroidManifest.xml:2030:9
+	android:label
+		ADDED from AndroidManifest.xml:2031:17
+	android:name
+		ADDED from AndroidManifest.xml:2030:19
+activity#com.example.android.apis.view.TextSwitcher1
+ADDED from AndroidManifest.xml:2038:9
+	android:label
+		ADDED from AndroidManifest.xml:2039:17
+	android:name
+		ADDED from AndroidManifest.xml:2038:19
+activity#com.example.android.apis.view.ImageButton1
+ADDED from AndroidManifest.xml:2046:9
+	android:label
+		ADDED from AndroidManifest.xml:2047:17
+	android:name
+		ADDED from AndroidManifest.xml:2046:19
+activity#com.example.android.apis.view.Animation1
+ADDED from AndroidManifest.xml:2054:9
+	android:label
+		ADDED from AndroidManifest.xml:2054:51
+	android:name
+		ADDED from AndroidManifest.xml:2054:19
+activity#com.example.android.apis.view.Animation2
+ADDED from AndroidManifest.xml:2061:9
+	android:label
+		ADDED from AndroidManifest.xml:2061:51
+	android:name
+		ADDED from AndroidManifest.xml:2061:19
+activity#com.example.android.apis.view.Animation3
+ADDED from AndroidManifest.xml:2068:9
+	android:label
+		ADDED from AndroidManifest.xml:2068:51
+	android:name
+		ADDED from AndroidManifest.xml:2068:19
+activity#com.example.android.apis.view.LayoutAnimation1
+ADDED from AndroidManifest.xml:2075:9
+	android:label
+		ADDED from AndroidManifest.xml:2075:57
+	android:name
+		ADDED from AndroidManifest.xml:2075:19
+activity#com.example.android.apis.view.LayoutAnimation2
+ADDED from AndroidManifest.xml:2082:9
+	android:label
+		ADDED from AndroidManifest.xml:2082:57
+	android:name
+		ADDED from AndroidManifest.xml:2082:19
+activity#com.example.android.apis.view.LayoutAnimation3
+ADDED from AndroidManifest.xml:2089:9
+	android:label
+		ADDED from AndroidManifest.xml:2089:57
+	android:name
+		ADDED from AndroidManifest.xml:2089:19
+activity#com.example.android.apis.view.LayoutAnimation4
+ADDED from AndroidManifest.xml:2096:9
+	android:label
+		ADDED from AndroidManifest.xml:2096:57
+	android:name
+		ADDED from AndroidManifest.xml:2096:19
+activity#com.example.android.apis.view.LayoutAnimation5
+ADDED from AndroidManifest.xml:2103:9
+	android:label
+		ADDED from AndroidManifest.xml:2103:57
+	android:name
+		ADDED from AndroidManifest.xml:2103:19
+activity#com.example.android.apis.view.LayoutAnimation6
+ADDED from AndroidManifest.xml:2110:9
+	android:label
+		ADDED from AndroidManifest.xml:2110:57
+	android:name
+		ADDED from AndroidManifest.xml:2110:19
+activity#com.example.android.apis.view.LayoutAnimation7
+ADDED from AndroidManifest.xml:2117:9
+	android:label
+		ADDED from AndroidManifest.xml:2117:57
+	android:name
+		ADDED from AndroidManifest.xml:2117:19
+activity#com.example.android.apis.view.Controls1
+ADDED from AndroidManifest.xml:2124:9
+	android:label
+		ADDED from AndroidManifest.xml:2125:19
+	android:theme
+		ADDED from AndroidManifest.xml:2126:19
+	android:name
+		ADDED from AndroidManifest.xml:2124:19
+activity#com.example.android.apis.view.Controls2
+ADDED from AndroidManifest.xml:2133:9
+	android:label
+		ADDED from AndroidManifest.xml:2134:19
+	android:theme
+		ADDED from AndroidManifest.xml:2135:19
+	android:name
+		ADDED from AndroidManifest.xml:2133:19
+activity#com.example.android.apis.view.Controls3
+ADDED from AndroidManifest.xml:2142:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2145:19
+	android:label
+		ADDED from AndroidManifest.xml:2143:19
+	android:theme
+		ADDED from AndroidManifest.xml:2144:19
+	android:name
+		ADDED from AndroidManifest.xml:2142:19
+activity#com.example.android.apis.view.Controls4
+ADDED from AndroidManifest.xml:2152:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2155:19
+	android:label
+		ADDED from AndroidManifest.xml:2153:19
+	android:theme
+		ADDED from AndroidManifest.xml:2154:19
+	android:name
+		ADDED from AndroidManifest.xml:2152:19
+activity#com.example.android.apis.view.Controls5
+ADDED from AndroidManifest.xml:2162:9
+	android:label
+		ADDED from AndroidManifest.xml:2163:19
+	android:theme
+		ADDED from AndroidManifest.xml:2164:19
+	android:name
+		ADDED from AndroidManifest.xml:2162:19
+activity#com.example.android.apis.view.Controls6
+ADDED from AndroidManifest.xml:2171:9
+	android:label
+		ADDED from AndroidManifest.xml:2172:19
+	android:theme
+		ADDED from AndroidManifest.xml:2173:19
+	android:name
+		ADDED from AndroidManifest.xml:2171:19
+activity#com.example.android.apis.view.Buttons1
+ADDED from AndroidManifest.xml:2180:9
+	android:label
+		ADDED from AndroidManifest.xml:2181:17
+	android:name
+		ADDED from AndroidManifest.xml:2180:19
+activity#com.example.android.apis.view.AutoComplete1
+ADDED from AndroidManifest.xml:2188:9
+	android:label
+		ADDED from AndroidManifest.xml:2188:54
+	android:name
+		ADDED from AndroidManifest.xml:2188:19
+activity#com.example.android.apis.view.AutoComplete2
+ADDED from AndroidManifest.xml:2195:9
+	android:label
+		ADDED from AndroidManifest.xml:2195:54
+	android:name
+		ADDED from AndroidManifest.xml:2195:19
+activity#com.example.android.apis.view.AutoComplete3
+ADDED from AndroidManifest.xml:2202:9
+	android:label
+		ADDED from AndroidManifest.xml:2202:54
+	android:name
+		ADDED from AndroidManifest.xml:2202:19
+activity#com.example.android.apis.view.AutoComplete4
+ADDED from AndroidManifest.xml:2209:9
+	android:label
+		ADDED from AndroidManifest.xml:2209:54
+	android:name
+		ADDED from AndroidManifest.xml:2209:19
+activity#com.example.android.apis.view.AutoComplete5
+ADDED from AndroidManifest.xml:2216:9
+	android:label
+		ADDED from AndroidManifest.xml:2216:54
+	android:name
+		ADDED from AndroidManifest.xml:2216:19
+activity#com.example.android.apis.view.AutoComplete6
+ADDED from AndroidManifest.xml:2223:9
+	android:label
+		ADDED from AndroidManifest.xml:2223:54
+	android:name
+		ADDED from AndroidManifest.xml:2223:19
+activity#com.example.android.apis.view.ProgressBar1
+ADDED from AndroidManifest.xml:2230:9
+	android:label
+		ADDED from AndroidManifest.xml:2230:53
+	android:name
+		ADDED from AndroidManifest.xml:2230:19
+activity#com.example.android.apis.view.ProgressBar2
+ADDED from AndroidManifest.xml:2237:9
+	android:label
+		ADDED from AndroidManifest.xml:2237:53
+	android:name
+		ADDED from AndroidManifest.xml:2237:19
+activity#com.example.android.apis.view.ProgressBar3
+ADDED from AndroidManifest.xml:2244:9
+	android:label
+		ADDED from AndroidManifest.xml:2244:53
+	android:name
+		ADDED from AndroidManifest.xml:2244:19
+activity#com.example.android.apis.view.ProgressBar4
+ADDED from AndroidManifest.xml:2251:9
+	android:label
+		ADDED from AndroidManifest.xml:2251:53
+	android:name
+		ADDED from AndroidManifest.xml:2251:19
+activity#com.example.android.apis.view.SeekBar1
+ADDED from AndroidManifest.xml:2258:9
+	android:label
+		ADDED from AndroidManifest.xml:2258:49
+	android:name
+		ADDED from AndroidManifest.xml:2258:19
+activity#com.example.android.apis.view.RatingBar1
+ADDED from AndroidManifest.xml:2265:9
+	android:label
+		ADDED from AndroidManifest.xml:2265:51
+	android:name
+		ADDED from AndroidManifest.xml:2265:19
+activity#com.example.android.apis.view.Focus1
+ADDED from AndroidManifest.xml:2272:9
+	android:label
+		ADDED from AndroidManifest.xml:2272:47
+	android:name
+		ADDED from AndroidManifest.xml:2272:19
+activity#com.example.android.apis.view.Focus2
+ADDED from AndroidManifest.xml:2279:9
+	android:label
+		ADDED from AndroidManifest.xml:2279:47
+	android:name
+		ADDED from AndroidManifest.xml:2279:19
+activity#com.example.android.apis.view.Focus3
+ADDED from AndroidManifest.xml:2286:9
+	android:label
+		ADDED from AndroidManifest.xml:2286:47
+	android:name
+		ADDED from AndroidManifest.xml:2286:19
+activity#com.example.android.apis.view.InternalSelectionFocus
+ADDED from AndroidManifest.xml:2293:9
+	android:label
+		ADDED from AndroidManifest.xml:2293:63
+	android:name
+		ADDED from AndroidManifest.xml:2293:19
+activity#com.example.android.apis.view.Focus5
+ADDED from AndroidManifest.xml:2300:9
+	android:label
+		ADDED from AndroidManifest.xml:2300:47
+	android:name
+		ADDED from AndroidManifest.xml:2300:19
+activity#com.example.android.apis.view.WindowFocusObserver
+ADDED from AndroidManifest.xml:2307:9
+	android:label
+		ADDED from AndroidManifest.xml:2308:19
+	android:name
+		ADDED from AndroidManifest.xml:2307:19
+activity#com.example.android.apis.view.DateWidgets1
+ADDED from AndroidManifest.xml:2315:9
+	android:label
+		ADDED from AndroidManifest.xml:2315:53
+	android:name
+		ADDED from AndroidManifest.xml:2315:19
+activity#com.example.android.apis.view.DateWidgets2
+ADDED from AndroidManifest.xml:2322:9
+	android:label
+		ADDED from AndroidManifest.xml:2322:53
+	android:name
+		ADDED from AndroidManifest.xml:2322:19
+activity#com.example.android.apis.view.PopupMenu1
+ADDED from AndroidManifest.xml:2329:9
+	android:label
+		ADDED from AndroidManifest.xml:2329:51
+	android:name
+		ADDED from AndroidManifest.xml:2329:19
+activity#com.example.android.apis.view.SearchViewActionBar
+ADDED from AndroidManifest.xml:2336:9
+	android:label
+		ADDED from AndroidManifest.xml:2336:60
+	android:theme
+		ADDED from AndroidManifest.xml:2337:17
+	android:name
+		ADDED from AndroidManifest.xml:2336:19
+activity#com.example.android.apis.view.SearchViewAlwaysVisible
+ADDED from AndroidManifest.xml:2346:9
+	android:label
+		ADDED from AndroidManifest.xml:2346:64
+	android:theme
+		ADDED from AndroidManifest.xml:2347:17
+	android:name
+		ADDED from AndroidManifest.xml:2346:19
+activity#com.example.android.apis.view.SearchViewFilterMode
+ADDED from AndroidManifest.xml:2356:9
+	android:label
+		ADDED from AndroidManifest.xml:2356:61
+	android:theme
+		ADDED from AndroidManifest.xml:2357:17
+	android:name
+		ADDED from AndroidManifest.xml:2356:19
+activity#com.example.android.apis.view.RotatingButton
+ADDED from AndroidManifest.xml:2364:9
+	android:label
+		ADDED from AndroidManifest.xml:2364:55
+	android:name
+		ADDED from AndroidManifest.xml:2364:19
+activity#com.example.android.apis.view.SecureView
+ADDED from AndroidManifest.xml:2371:9
+	android:label
+		ADDED from AndroidManifest.xml:2371:51
+	android:name
+		ADDED from AndroidManifest.xml:2371:19
+activity#com.example.android.apis.view.SplitTouchView
+ADDED from AndroidManifest.xml:2378:9
+	android:label
+		ADDED from AndroidManifest.xml:2378:55
+	android:name
+		ADDED from AndroidManifest.xml:2378:19
+activity#com.example.android.apis.view.DragAndDropDemo
+ADDED from AndroidManifest.xml:2385:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2388:17
+	android:label
+		ADDED from AndroidManifest.xml:2386:17
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2387:17
+	android:name
+		ADDED from AndroidManifest.xml:2385:19
+activity#com.example.android.apis.view.GameControllerInput
+ADDED from AndroidManifest.xml:2395:9
+	android:label
+		ADDED from AndroidManifest.xml:2395:60
+	android:name
+		ADDED from AndroidManifest.xml:2395:19
+activity#com.example.android.apis.view.Hover
+ADDED from AndroidManifest.xml:2402:9
+	android:label
+		ADDED from AndroidManifest.xml:2402:46
+	android:name
+		ADDED from AndroidManifest.xml:2402:19
+activity#com.example.android.apis.view.SystemUIModes
+ADDED from AndroidManifest.xml:2409:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2412:17
+	android:label
+		ADDED from AndroidManifest.xml:2410:17
+	android:uiOptions
+		ADDED from AndroidManifest.xml:2411:17
+	android:name
+		ADDED from AndroidManifest.xml:2409:19
+activity#com.example.android.apis.view.SystemUIModesOverlay
+ADDED from AndroidManifest.xml:2419:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2422:17
+	android:label
+		ADDED from AndroidManifest.xml:2420:17
+	android:uiOptions
+		ADDED from AndroidManifest.xml:2421:17
+	android:name
+		ADDED from AndroidManifest.xml:2419:19
+activity#com.example.android.apis.view.ContentBrowserActivity
+ADDED from AndroidManifest.xml:2429:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2433:17
+	android:label
+		ADDED from AndroidManifest.xml:2430:17
+	android:uiOptions
+		ADDED from AndroidManifest.xml:2432:17
+	android:theme
+		ADDED from AndroidManifest.xml:2431:17
+	android:name
+		ADDED from AndroidManifest.xml:2429:19
+activity#com.example.android.apis.view.ContentBrowserNavActivity
+ADDED from AndroidManifest.xml:2440:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2444:17
+	android:label
+		ADDED from AndroidManifest.xml:2441:17
+	android:uiOptions
+		ADDED from AndroidManifest.xml:2443:17
+	android:theme
+		ADDED from AndroidManifest.xml:2442:17
+	android:name
+		ADDED from AndroidManifest.xml:2440:19
+activity#com.example.android.apis.view.VideoPlayerActivity
+ADDED from AndroidManifest.xml:2451:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2455:17
+	android:label
+		ADDED from AndroidManifest.xml:2452:17
+	android:uiOptions
+		ADDED from AndroidManifest.xml:2454:17
+	android:theme
+		ADDED from AndroidManifest.xml:2453:17
+	android:name
+		ADDED from AndroidManifest.xml:2451:19
+activity#com.example.android.apis.view.TranslucentBarsActivity
+ADDED from AndroidManifest.xml:2462:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2465:17
+	android:label
+		ADDED from AndroidManifest.xml:2463:17
+	android:theme
+		ADDED from AndroidManifest.xml:2464:17
+	android:name
+		ADDED from AndroidManifest.xml:2462:19
+activity#com.example.android.apis.view.GameActivity
+ADDED from AndroidManifest.xml:2472:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2475:17
+	android:label
+		ADDED from AndroidManifest.xml:2473:17
+	android:theme
+		ADDED from AndroidManifest.xml:2474:17
+	android:name
+		ADDED from AndroidManifest.xml:2472:19
+activity#com.example.android.apis.view.Switches
+ADDED from AndroidManifest.xml:2482:9
+	android:label
+		ADDED from AndroidManifest.xml:2482:49
+	android:name
+		ADDED from AndroidManifest.xml:2482:19
+activity#com.example.android.apis.graphics.kube.Kube
+ADDED from AndroidManifest.xml:2493:9
+	android:label
+		ADDED from AndroidManifest.xml:2493:54
+	android:configChanges
+		ADDED from AndroidManifest.xml:2494:17
+	android:name
+		ADDED from AndroidManifest.xml:2493:19
+activity#com.example.android.apis.graphics.Compass
+ADDED from AndroidManifest.xml:2501:9
+	android:label
+		ADDED from AndroidManifest.xml:2501:52
+	android:name
+		ADDED from AndroidManifest.xml:2501:19
+activity#com.example.android.apis.graphics.CameraPreview
+ADDED from AndroidManifest.xml:2508:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:2508:97
+	android:label
+		ADDED from AndroidManifest.xml:2508:58
+	android:name
+		ADDED from AndroidManifest.xml:2508:19
+activity#com.example.android.apis.graphics.CompressedTextureActivity
+ADDED from AndroidManifest.xml:2515:9
+	android:label
+		ADDED from AndroidManifest.xml:2516:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2518:17
+	android:theme
+		ADDED from AndroidManifest.xml:2517:17
+	android:name
+		ADDED from AndroidManifest.xml:2515:19
+activity#com.example.android.apis.graphics.CubeMapActivity
+ADDED from AndroidManifest.xml:2525:9
+	android:label
+		ADDED from AndroidManifest.xml:2526:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2528:17
+	android:theme
+		ADDED from AndroidManifest.xml:2527:17
+	android:name
+		ADDED from AndroidManifest.xml:2525:19
+activity#com.example.android.apis.graphics.FrameBufferObjectActivity
+ADDED from AndroidManifest.xml:2536:9
+	android:label
+		ADDED from AndroidManifest.xml:2537:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2539:17
+	android:theme
+		ADDED from AndroidManifest.xml:2538:17
+	android:name
+		ADDED from AndroidManifest.xml:2536:19
+activity#com.example.android.apis.graphics.GLSurfaceViewActivity
+ADDED from AndroidManifest.xml:2546:9
+	android:label
+		ADDED from AndroidManifest.xml:2547:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2549:17
+	android:theme
+		ADDED from AndroidManifest.xml:2548:17
+	android:name
+		ADDED from AndroidManifest.xml:2546:19
+activity#com.example.android.apis.graphics.GLES20Activity
+ADDED from AndroidManifest.xml:2556:9
+	android:label
+		ADDED from AndroidManifest.xml:2557:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2559:17
+	android:theme
+		ADDED from AndroidManifest.xml:2558:17
+	android:name
+		ADDED from AndroidManifest.xml:2556:19
+activity#com.example.android.apis.graphics.MatrixPaletteActivity
+ADDED from AndroidManifest.xml:2566:9
+	android:label
+		ADDED from AndroidManifest.xml:2567:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2568:17
+	android:name
+		ADDED from AndroidManifest.xml:2566:19
+activity#com.example.android.apis.graphics.TranslucentGLSurfaceViewActivity
+ADDED from AndroidManifest.xml:2575:9
+	android:label
+		ADDED from AndroidManifest.xml:2576:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2578:17
+	android:theme
+		ADDED from AndroidManifest.xml:2577:17
+	android:name
+		ADDED from AndroidManifest.xml:2575:19
+activity#com.example.android.apis.graphics.TriangleActivity
+ADDED from AndroidManifest.xml:2585:9
+	android:label
+		ADDED from AndroidManifest.xml:2586:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2588:17
+	android:theme
+		ADDED from AndroidManifest.xml:2587:17
+	android:name
+		ADDED from AndroidManifest.xml:2585:19
+activity#com.example.android.apis.graphics.spritetext.SpriteTextActivity
+ADDED from AndroidManifest.xml:2595:9
+	android:label
+		ADDED from AndroidManifest.xml:2596:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2598:17
+	android:theme
+		ADDED from AndroidManifest.xml:2597:17
+	android:name
+		ADDED from AndroidManifest.xml:2595:19
+activity#com.example.android.apis.graphics.TouchRotateActivity
+ADDED from AndroidManifest.xml:2605:9
+	android:label
+		ADDED from AndroidManifest.xml:2606:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:2608:17
+	android:theme
+		ADDED from AndroidManifest.xml:2607:17
+	android:name
+		ADDED from AndroidManifest.xml:2605:19
+activity#com.example.android.apis.graphics.PolyToPoly
+ADDED from AndroidManifest.xml:2615:9
+	android:label
+		ADDED from AndroidManifest.xml:2615:55
+	android:name
+		ADDED from AndroidManifest.xml:2615:19
+activity#com.example.android.apis.graphics.ScaleToFit
+ADDED from AndroidManifest.xml:2622:9
+	android:label
+		ADDED from AndroidManifest.xml:2622:55
+	android:name
+		ADDED from AndroidManifest.xml:2622:19
+activity#com.example.android.apis.graphics.RoundRects
+ADDED from AndroidManifest.xml:2629:9
+	android:label
+		ADDED from AndroidManifest.xml:2629:55
+	android:name
+		ADDED from AndroidManifest.xml:2629:19
+activity#com.example.android.apis.graphics.ShapeDrawable1
+ADDED from AndroidManifest.xml:2636:9
+	android:label
+		ADDED from AndroidManifest.xml:2636:59
+	android:name
+		ADDED from AndroidManifest.xml:2636:19
+activity#com.example.android.apis.graphics.SurfaceViewOverlay
+ADDED from AndroidManifest.xml:2643:9
+	android:label
+		ADDED from AndroidManifest.xml:2644:17
+	android:name
+		ADDED from AndroidManifest.xml:2643:19
+activity#com.example.android.apis.graphics.WindowSurface
+ADDED from AndroidManifest.xml:2651:9
+	android:label
+		ADDED from AndroidManifest.xml:2652:17
+	android:name
+		ADDED from AndroidManifest.xml:2651:19
+activity#com.example.android.apis.graphics.TextAlign
+ADDED from AndroidManifest.xml:2659:9
+	android:label
+		ADDED from AndroidManifest.xml:2660:54
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2659:19
+	android:name
+		ADDED from AndroidManifest.xml:2660:19
+activity#com.example.android.apis.graphics.Arcs
+ADDED from AndroidManifest.xml:2667:9
+	android:label
+		ADDED from AndroidManifest.xml:2667:49
+	android:name
+		ADDED from AndroidManifest.xml:2667:19
+activity#com.example.android.apis.graphics.Patterns
+ADDED from AndroidManifest.xml:2674:9
+	android:label
+		ADDED from AndroidManifest.xml:2674:53
+	android:name
+		ADDED from AndroidManifest.xml:2674:19
+activity#com.example.android.apis.graphics.Clipping
+ADDED from AndroidManifest.xml:2681:9
+	android:label
+		ADDED from AndroidManifest.xml:2682:53
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2681:19
+	android:name
+		ADDED from AndroidManifest.xml:2682:19
+activity#com.example.android.apis.graphics.Layers
+ADDED from AndroidManifest.xml:2689:9
+	android:label
+		ADDED from AndroidManifest.xml:2689:51
+	android:name
+		ADDED from AndroidManifest.xml:2689:19
+activity#com.example.android.apis.graphics.UnicodeChart
+ADDED from AndroidManifest.xml:2696:9
+	android:label
+		ADDED from AndroidManifest.xml:2697:57
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2696:19
+	android:name
+		ADDED from AndroidManifest.xml:2697:19
+activity#com.example.android.apis.graphics.PathFillTypes
+ADDED from AndroidManifest.xml:2704:9
+	android:label
+		ADDED from AndroidManifest.xml:2704:58
+	android:name
+		ADDED from AndroidManifest.xml:2704:19
+activity#com.example.android.apis.graphics.Pictures
+ADDED from AndroidManifest.xml:2711:9
+	android:label
+		ADDED from AndroidManifest.xml:2712:53
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2711:19
+	android:name
+		ADDED from AndroidManifest.xml:2712:19
+activity#com.example.android.apis.graphics.Vertices
+ADDED from AndroidManifest.xml:2719:9
+	android:label
+		ADDED from AndroidManifest.xml:2720:53
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2719:19
+	android:name
+		ADDED from AndroidManifest.xml:2720:19
+activity#com.example.android.apis.graphics.AnimateDrawables
+ADDED from AndroidManifest.xml:2727:9
+	android:label
+		ADDED from AndroidManifest.xml:2727:61
+	android:name
+		ADDED from AndroidManifest.xml:2727:19
+activity#com.example.android.apis.graphics.SensorTest
+ADDED from AndroidManifest.xml:2734:9
+	android:label
+		ADDED from AndroidManifest.xml:2734:55
+	android:name
+		ADDED from AndroidManifest.xml:2734:19
+activity#com.example.android.apis.graphics.AlphaBitmap
+ADDED from AndroidManifest.xml:2741:9
+	android:label
+		ADDED from AndroidManifest.xml:2741:56
+	android:name
+		ADDED from AndroidManifest.xml:2741:19
+activity#com.example.android.apis.graphics.Regions
+ADDED from AndroidManifest.xml:2748:9
+	android:label
+		ADDED from AndroidManifest.xml:2748:52
+	android:name
+		ADDED from AndroidManifest.xml:2748:19
+activity#com.example.android.apis.graphics.Sweep
+ADDED from AndroidManifest.xml:2755:9
+	android:label
+		ADDED from AndroidManifest.xml:2755:50
+	android:name
+		ADDED from AndroidManifest.xml:2755:19
+activity#com.example.android.apis.graphics.BitmapMesh
+ADDED from AndroidManifest.xml:2762:9
+	android:label
+		ADDED from AndroidManifest.xml:2762:55
+	android:name
+		ADDED from AndroidManifest.xml:2762:19
+activity#com.example.android.apis.graphics.MeasureText
+ADDED from AndroidManifest.xml:2769:9
+	android:label
+		ADDED from AndroidManifest.xml:2769:56
+	android:name
+		ADDED from AndroidManifest.xml:2769:19
+activity#com.example.android.apis.graphics.Typefaces
+ADDED from AndroidManifest.xml:2776:9
+	android:label
+		ADDED from AndroidManifest.xml:2776:54
+	android:name
+		ADDED from AndroidManifest.xml:2776:19
+activity#com.example.android.apis.graphics.FingerPaint
+ADDED from AndroidManifest.xml:2783:9
+	android:label
+		ADDED from AndroidManifest.xml:2783:56
+	android:name
+		ADDED from AndroidManifest.xml:2783:19
+activity#com.example.android.apis.graphics.ColorMatrixSample
+ADDED from AndroidManifest.xml:2790:9
+	android:label
+		ADDED from AndroidManifest.xml:2790:62
+	android:name
+		ADDED from AndroidManifest.xml:2790:19
+activity#com.example.android.apis.graphics.BitmapDecode
+ADDED from AndroidManifest.xml:2797:9
+	android:label
+		ADDED from AndroidManifest.xml:2798:57
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2797:19
+	android:name
+		ADDED from AndroidManifest.xml:2798:19
+activity#com.example.android.apis.graphics.ColorFilters
+ADDED from AndroidManifest.xml:2805:9
+	android:label
+		ADDED from AndroidManifest.xml:2805:57
+	android:name
+		ADDED from AndroidManifest.xml:2805:19
+activity#com.example.android.apis.graphics.CreateBitmap
+ADDED from AndroidManifest.xml:2812:9
+	android:label
+		ADDED from AndroidManifest.xml:2812:57
+	android:name
+		ADDED from AndroidManifest.xml:2812:19
+activity#com.example.android.apis.graphics.DrawPoints
+ADDED from AndroidManifest.xml:2819:9
+	android:label
+		ADDED from AndroidManifest.xml:2820:55
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:2819:19
+	android:name
+		ADDED from AndroidManifest.xml:2820:19
+activity#com.example.android.apis.graphics.TouchPaint
+ADDED from AndroidManifest.xml:2827:9
+	android:label
+		ADDED from AndroidManifest.xml:2827:55
+	android:configChanges
+		ADDED from AndroidManifest.xml:2829:17
+	android:theme
+		ADDED from AndroidManifest.xml:2828:17
+	android:name
+		ADDED from AndroidManifest.xml:2827:19
+activity#com.example.android.apis.graphics.BitmapPixels
+ADDED from AndroidManifest.xml:2836:9
+	android:label
+		ADDED from AndroidManifest.xml:2836:57
+	android:name
+		ADDED from AndroidManifest.xml:2836:19
+activity#com.example.android.apis.graphics.Xfermodes
+ADDED from AndroidManifest.xml:2843:9
+	android:label
+		ADDED from AndroidManifest.xml:2843:54
+	android:name
+		ADDED from AndroidManifest.xml:2843:19
+activity#com.example.android.apis.graphics.PathEffects
+ADDED from AndroidManifest.xml:2850:9
+	android:label
+		ADDED from AndroidManifest.xml:2850:56
+	android:name
+		ADDED from AndroidManifest.xml:2850:19
+activity#com.example.android.apis.graphics.GradientDrawable1
+ADDED from AndroidManifest.xml:2857:9
+	android:label
+		ADDED from AndroidManifest.xml:2857:62
+	android:name
+		ADDED from AndroidManifest.xml:2857:19
+activity#com.example.android.apis.graphics.PurgeableBitmap
+ADDED from AndroidManifest.xml:2864:9
+	android:label
+		ADDED from AndroidManifest.xml:2864:60
+	android:name
+		ADDED from AndroidManifest.xml:2864:19
+activity-alias#com.example.android.apis.Purgeable
+ADDED from AndroidManifest.xml:2871:8
+	android:label
+		ADDED from AndroidManifest.xml:2871:100
+	android:targetActivity
+		ADDED from AndroidManifest.xml:2871:24
+	android:name
+		ADDED from AndroidManifest.xml:2871:75
+activity#com.example.android.apis.graphics.DensityActivity
+ADDED from AndroidManifest.xml:2878:9
+	android:label
+		ADDED from AndroidManifest.xml:2878:60
+	android:name
+		ADDED from AndroidManifest.xml:2878:19
+activity#com.example.android.apis.media.MediaPlayerDemo
+ADDED from AndroidManifest.xml:2889:9
+	android:label
+		ADDED from AndroidManifest.xml:2889:57
+	android:name
+		ADDED from AndroidManifest.xml:2889:19
+activity#com.example.android.apis.media.MediaPlayerDemo_Audio
+ADDED from AndroidManifest.xml:2896:9
+	android:label
+		ADDED from AndroidManifest.xml:2896:63
+	android:name
+		ADDED from AndroidManifest.xml:2896:19
+intent-filter#android.intent.category.SAMPLE_CODE
+ADDED from AndroidManifest.xml:2897:13
+activity#com.example.android.apis.media.MediaPlayerDemo_Video
+ADDED from AndroidManifest.xml:2902:9
+	android:label
+		ADDED from AndroidManifest.xml:2902:63
+	android:name
+		ADDED from AndroidManifest.xml:2902:19
+activity#com.example.android.apis.media.VideoViewDemo
+ADDED from AndroidManifest.xml:2908:9
+	android:label
+		ADDED from AndroidManifest.xml:2908:55
+	android:name
+		ADDED from AndroidManifest.xml:2908:19
+activity#com.example.android.apis.media.AudioFxDemo
+ADDED from AndroidManifest.xml:2915:9
+	android:label
+		ADDED from AndroidManifest.xml:2915:53
+	android:name
+		ADDED from AndroidManifest.xml:2915:19
+receiver#com.example.android.apis.appwidget.ExampleAppWidgetProvider
+ADDED from AndroidManifest.xml:2926:9
+	android:name
+		ADDED from AndroidManifest.xml:2926:19
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:2927:13
+	android:resource
+		ADDED from AndroidManifest.xml:2928:21
+	android:name
+		ADDED from AndroidManifest.xml:2927:24
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:2929:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:2930:17
+	android:name
+		ADDED from AndroidManifest.xml:2930:25
+activity#com.example.android.apis.appwidget.ExampleAppWidgetConfigure
+ADDED from AndroidManifest.xml:2934:9
+	android:name
+		ADDED from AndroidManifest.xml:2934:19
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:2935:13
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:2936:17
+	android:name
+		ADDED from AndroidManifest.xml:2936:25
+receiver#com.example.android.apis.appwidget.ExampleBroadcastReceiver
+ADDED from AndroidManifest.xml:2940:9
+	android:enabled
+		ADDED from AndroidManifest.xml:2940:70
+	android:name
+		ADDED from AndroidManifest.xml:2940:19
+intent-filter#android.intent.ACTION_TIME+android.intent.ACTION_TIMEZONE_CHANGED
+ADDED from AndroidManifest.xml:2941:13
+action#android.intent.ACTION_TIMEZONE_CHANGED
+ADDED from AndroidManifest.xml:2942:17
+	android:name
+		ADDED from AndroidManifest.xml:2942:25
+action#android.intent.ACTION_TIME
+ADDED from AndroidManifest.xml:2943:17
+	android:name
+		ADDED from AndroidManifest.xml:2943:25
+activity#com.example.android.apis.text.Link
+ADDED from AndroidManifest.xml:2951:9
+	android:label
+		ADDED from AndroidManifest.xml:2951:45
+	android:name
+		ADDED from AndroidManifest.xml:2951:19
+activity#com.example.android.apis.text.Marquee
+ADDED from AndroidManifest.xml:2958:9
+	android:label
+		ADDED from AndroidManifest.xml:2958:48
+	android:name
+		ADDED from AndroidManifest.xml:2958:19
+activity#com.example.android.apis.text.LogTextBox1
+ADDED from AndroidManifest.xml:2965:9
+	android:label
+		ADDED from AndroidManifest.xml:2965:52
+	android:name
+		ADDED from AndroidManifest.xml:2965:19
+activity#com.example.android.apis.nfc.ForegroundDispatch
+ADDED from AndroidManifest.xml:2972:9
+	android:label
+		ADDED from AndroidManifest.xml:2972:58
+	android:name
+		ADDED from AndroidManifest.xml:2972:19
+activity#com.example.android.apis.nfc.TechFilter
+ADDED from AndroidManifest.xml:2979:9
+	android:label
+		ADDED from AndroidManifest.xml:2979:50
+	android:name
+		ADDED from AndroidManifest.xml:2979:19
+intent-filter#android.nfc.action.TECH_DISCOVERED
+ADDED from AndroidManifest.xml:2986:13
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from AndroidManifest.xml:2987:17
+	android:name
+		ADDED from AndroidManifest.xml:2987:25
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from AndroidManifest.xml:2990:13
+	android:resource
+		ADDED from AndroidManifest.xml:2991:17
+	android:name
+		ADDED from AndroidManifest.xml:2990:24
+activity#com.example.android.apis.nfc.ForegroundNdefPush
+ADDED from AndroidManifest.xml:2995:9
+	android:label
+		ADDED from AndroidManifest.xml:2995:58
+	android:name
+		ADDED from AndroidManifest.xml:2995:19
+activity#com.example.android.apis.security.KeyStoreUsage
+ADDED from AndroidManifest.xml:3002:9
+	android:label
+		ADDED from AndroidManifest.xml:3002:58
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:3003:13
+	android:name
+		ADDED from AndroidManifest.xml:3002:19
+instrumentation#com.example.android.apis.app.LocalSampleInstrumentation
+ADDED from AndroidManifest.xml:3011:5
+	android:label
+		ADDED from AndroidManifest.xml:3013:9
+	android:targetPackage
+		ADDED from AndroidManifest.xml:3012:9
+	android:name
+		ADDED from AndroidManifest.xml:3011:22

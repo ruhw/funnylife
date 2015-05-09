@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/txt_statelistanimator"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:gravity="center"
+        android:text="@string/button_stateListAnimator_translationz"
+        android:stateListAnimator="@animator/btn_anim_translationz"
+        />
+    <Button
+        android:id="@+id/btn_statelistanimator_id"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:gravity="center"
+        android:text="@string/button_stateListAnimator_x"
+        android:stateListAnimator="@animator/btn_anim_x"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#FF00FF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/txt_animatedstatelistdrawable"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="20dp"
+        />
+    <CheckBox
+        android:layout_marginTop="16dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        />
+
+    <ImageView
+        android:id='@+id/imageview_icon_id'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/add_schedule_fab_background"
+        />
+
+</LinearLayout>
+<!-- From: file:/home/ruhaiwen/AndroidStudioProjects/PhotoViewer/androidLDemo/src/main/res/layout/viewstatechangeanimatordemo_layout.xml -->

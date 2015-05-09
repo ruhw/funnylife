@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/framelayout_id"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+        android:visibility="invisible"
+        />
+     <Button
+        android:id="@+id/button_reveal_id"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:gravity="center"
+        android:text="@string/button_reveal"
+        />
+
+     <Button
+        android:id="@+id/button_reveal_next_id"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/button_start_activity_reveal"
+        android:gravity="center"
+        />
+</LinearLayout>

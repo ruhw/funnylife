@@ -1,0 +1,8 @@
+include ':app', ':universalImageLoader', ':9GAG', ':extras:ShimmerAndroid', ':jobqueue', ':TwitterClient', ':jobqueueottodemo', ':funnylife'
+include ':apiDemos'
+include ':_22_FragmentComposition_CriminalIntent'
+include ':photoWallFallsDemo'
+include ':androidLDemo'
+include ':appListLoader'
+include ':bmobExample'
+include ':wonderful2'
